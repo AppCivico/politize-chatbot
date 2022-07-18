@@ -1,0 +1,32 @@
+{
+  "name": "politize-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "start": "node src/server.js",
+    "timeout": "node src/script/conversation_timeout.js"
+  },
+  "author": "Lucas Ansei",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.1.0",
+    "form-data": "^3.0.1",
+    "redis": "^3.1.2",
+    "twitter-lite": "^1.1.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.1",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}

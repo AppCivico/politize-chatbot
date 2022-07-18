@@ -1,0 +1,30 @@
+[
+    {
+        "code": "node_1",
+        "type": "text_message",
+        "input_type": "quick_reply",
+        "messages": [
+            "Aperte no botão abaixo para iniciar o questionário"
+        ],
+        "quick_replies": [
+            {
+                "label": "Iniciar",
+                "metadata": "node_3"
+            }
+        ],
+        "parent": null,
+        "children": [
+            "node_2",
+            "node_3"
+        ]
+    },
+    {
+        "code": "node_3",
+        "type": "questionnaire",
+        "questionnaire_id": "8",
+        "is_conversation_end": true,
+        "on_conversation_end": "restart",
+        "parent": "node_1",
+        "children": null
+    }
+]

@@ -1,0 +1,49 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": ".e6d0768b6eef57145c1466563961dde89700ddeb-audit.json",
+    "files": [
+        {
+            "date": 1623688751786,
+            "name": "azmina-chatbot_2021-06-14-13.log",
+            "hash": "cb38bb6ef3dd05ab6a3ff60f414b8fb8"
+        },
+        {
+            "date": 1623780077832,
+            "name": "azmina-chatbot_2021-06-15-15.log",
+            "hash": "048f5ce22158685aa651ecdd0ef0444e"
+        },
+        {
+            "date": 1623783648991,
+            "name": "azmina-chatbot_2021-06-15-16.log",
+            "hash": "3782584501db5fe7cd44a4dd206a225d"
+        },
+        {
+            "date": 1623787731602,
+            "name": "azmina-chatbot_2021-06-15-17.log",
+            "hash": "2177cbe52770eea326fceafea2bd7f1f"
+        },
+        {
+            "date": 1623938312716,
+            "name": "azmina-chatbot_2021-06-17-10.log",
+            "hash": "7f063abd828bea68824dd6f34ffab38c"
+        },
+        {
+            "date": 1623950755673,
+            "name": "azmina-chatbot_2021-06-17-14.log",
+            "hash": "8e8902fb214e580df148e4bef883bc8b"
+        },
+        {
+            "date": 1623952827091,
+            "name": "azmina-chatbot_2021-06-17-15.log",
+            "hash": "d5abe55cbe4444e4999de49fd70d9156"
+        },
+        {
+            "date": 1623957642570,
+            "name": "azmina-chatbot_2021-06-17-16.log",
+            "hash": "4a23a13c5bfb39a75e069f5924fa849d"
+        }
+    ]
+}

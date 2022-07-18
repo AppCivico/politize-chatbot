@@ -1,0 +1,1 @@
+* * * * * node /home/node/app/src/script/conversation_timeout.js >> /var/log/cron.log 2>&1
