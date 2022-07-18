@@ -13,6 +13,40 @@ const analytics_api = require('../../webservices/analytics');
 
 const { time } = require('console');
 
+const flow = {
+    nodes: [
+        {
+            "code": "node_1",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Aperte no botão abaixo para iniciar o questionário"
+            ],
+            "quick_replies": [
+                {
+                    "label": "Iniciar",
+                    "metadata": "node_3"
+                }
+            ],
+            "parent": null,
+            "children": [
+                "node_2",
+                "node_3"
+            ]
+        },
+
+        {
+            "code": "node_3",
+            "type": "questionnaire",
+            "questionnaire_id": "8",
+            "is_conversation_end": true,
+            "on_conversation_end": "restart",
+            "parent": "node_1",
+            "children": null
+        }
+    ]
+}
+
 
 function get_challenge_response(crc_token, consumer_secret) {
     return crypto.createHmac('sha256', consumer_secret).update(crc_token).digest('base64');
@@ -783,7 +817,7 @@ router.post('/twitter-webhook', async (req, res) => {
                                 stash.error_msg_count = 1;
                                 await stasher.save_stash(twitter_user_id, stash);
                             }
- 
+
                             let error_msg;
                             if (stash.error_msg_count === 1) {
                                 error_msg = flow.error_msg;
@@ -798,7 +832,7 @@ router.post('/twitter-webhook', async (req, res) => {
                                 error_msg = flow.error_msg_email;
                                 stash.error_msg_count = undefined;
                             }
-                                                 
+
                             // Send error message
                             if (stash.is_questionnaire) {
                                 await twitter_api.send_dm(twitter_user_id, error_msg, stash.current_questionnaire_options.map((opt) => {
@@ -806,11 +840,11 @@ router.post('/twitter-webhook', async (req, res) => {
                                 }))
                             }
                             else {
-                                
+
                                 await twitter_api.send_dm(twitter_user_id, error_msg, stash.current_questionnaire_options)
                             }
 
-                            stash.error_msg_count = stash.error_msg_count + 1;        
+                            stash.error_msg_count = stash.error_msg_count + 1;
                             await stasher.save_stash(twitter_user_id, stash);
                         }
 
