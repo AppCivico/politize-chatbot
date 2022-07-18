@@ -20,44 +20,44 @@ const app = express();
 // parse application/json
 app.use(body_parser.json())
 
-const transport = new winston.transports.DailyRotateFile({
-    filename: 'politize-chatbot_%DATE%.log',
-    datePattern: 'YYYY-MM-DD-HH',
-    zippedArchive: true,
-    maxSize: '20m',
-    maxFiles: '14d',
-    dirname: process.env.LOG_DIR || "/tmp/politize-chatbot-log/"
-});
+// const transport = new winston.transports.DailyRotateFile({
+//     filename: 'politize-chatbot_%DATE%.log',
+//     datePattern: 'YYYY-MM-DD-HH',
+//     zippedArchive: true,
+//     maxSize: '20m',
+//     maxFiles: '14d',
+//     dirname: process.env.LOG_DIR || "/tmp/politize-chatbot-log/"
+// });
 
-app.use(expressWinston.logger({
-    transports: [
-        transport
-    ],
-    format: winston.format.combine(
-        winston.format.colorize(),
-        winston.format.json()
-    ),
-    meta: true,
-    msg: "HTTP {{req.method}} {{req.url}}",
-    expressFormat: true,
-    colorize: false,
-    ignoreRoute: function (req, res) { return false; }
-}));
+// app.use(expressWinston.logger({
+//     transports: [
+//         transport
+//     ],
+//     format: winston.format.combine(
+//         winston.format.colorize(),
+//         winston.format.json()
+//     ),
+//     meta: true,
+//     msg: "HTTP {{req.method}} {{req.url}}",
+//     expressFormat: true,
+//     colorize: false,
+//     ignoreRoute: function (req, res) { return false; }
+// }));
 
 // Routes
 app.use(health_check);
 app.use(twitter_webhook);
 app.use(config);
 
-app.use(expressWinston.errorLogger({
-    transports: [
-        new winston.transports.Console()
-    ],
-    format: winston.format.combine(
-        winston.format.colorize(),
-        winston.format.json()
-    )
-}));
+// app.use(expressWinston.errorLogger({
+//     transports: [
+//         new winston.transports.Console()
+//     ],
+//     format: winston.format.combine(
+//         winston.format.colorize(),
+//         winston.format.json()
+//     )
+// }));
 
 
 redis.set('json_config', JSON.stringify(flow));
