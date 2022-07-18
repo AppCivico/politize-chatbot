@@ -1,6 +1,7 @@
 version: "3.5"
 services:
     redis:
+        container_name: politize-chatbot-redis
         image: docker.io/bitnami/redis:6.2
         environment:
           REDIS_PASSWORD: "${REDIS_PASSWORD}"
@@ -28,7 +29,7 @@ services:
             TWITTER_ACCESS_TOKEN: ${TWITTER_ACCESS_TOKEN}
             TWITTER_ACCESS_TOKEN_SECRET: ${TWITTER_ACCESS_TOKEN_SECRET}
 
-            REDIS_HOST: redis
+            REDIS_HOST: politize-chatbot-redis
             REDIS_PORT: "6379"
             REDIS_PASSWORD: ${REDIS_PASSWORD}
 
@@ -40,8 +41,8 @@ services:
             LOG_DIR: /tmp/log
         ports:
             - ${BIND_INTERFACE}:${BIND_INTERFACE_PORT}:8080
-        volumes:
-            - ${HOST_MACHINE_LOG_DIR}:/tmp/log
+        #volumes:
+        #    - ${HOST_MACHINE_LOG_DIR}:/tmp/log
         networks:
             - external
             - cache
