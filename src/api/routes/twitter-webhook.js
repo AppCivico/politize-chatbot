@@ -20,11 +20,15 @@ const flow = {
             "type": "text_message",
             "input_type": "quick_reply",
             "messages": [
-                "Aperte no botão abaixo para iniciar o questionário"
+                "ESTOU VIVO! Você está bem?"
             ],
             "quick_replies": [
                 {
-                    "label": "Iniciar",
+                    "label": "Sim",
+                    "metadata": "node_2"
+                },
+                {
+                    "label": "Não",
                     "metadata": "node_3"
                 }
             ],
@@ -36,13 +40,41 @@ const flow = {
         },
 
         {
+            "code": "node_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Que bom!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "Finalizar",
+                    "metadata": "node_4"
+                }
+            ],
+            "parent": 'node_1',
+            "children": [
+                "node_4",
+            ]
+        },
+
+        {
             "code": "node_3",
-            "type": "questionnaire",
-            "questionnaire_id": "8",
-            "is_conversation_end": true,
-            "on_conversation_end": "restart",
-            "parent": "node_1",
-            "children": null
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Poxa, que triste!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "Finalizar",
+                    "metadata": "node_4"
+                }
+            ],
+            "parent": 'node_1',
+            "children": [
+                "node_4",
+            ]
         }
     ]
 }
