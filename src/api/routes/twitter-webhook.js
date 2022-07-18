@@ -820,6 +820,7 @@ router.post('/twitter-webhook', async (req, res) => {
             }
             else {
                 // Começando coversa
+                console.log(flow);
                 const node = flow.nodes[0];
                 const stash = {
                     current_node: flow.nodes[0].code,
