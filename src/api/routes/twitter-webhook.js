@@ -124,7 +124,7 @@ router.get('/twitter-webhook', (req, res) => {
 router.post('/twitter-webhook', async (req, res) => {
     const encoded_flow = await redis.get('json_config');
     // const flow = JSON.parse(encoded_flow);
-    const flow = require('../flow.json');
+    // const flow = require('../flow.json');
 
 
     const direct_messages = req.body.direct_message_events;
