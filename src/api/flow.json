@@ -1,5 +1,5 @@
-[
-    {
+{
+    "nodes": [{
         "code": "node_1",
         "type": "text_message",
         "input_type": "quick_reply",
@@ -26,5 +26,5 @@
         "on_conversation_end": "restart",
         "parent": "node_1",
         "children": null
-    }
-]
+    }]
+}
