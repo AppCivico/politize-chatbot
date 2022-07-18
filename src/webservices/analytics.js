@@ -6,6 +6,14 @@ const api_token = process.env.ANALYTICS_API_TOKEN;
 async function post_conversa(handle_hashed, first_msg_tz) {
     const req_url = `${api_url}/conversa`;
 
+    const res = {
+        data: {
+            id: 1
+        }
+    }
+
+    return res
+
     let tries = 0;
     while (tries < 3) {
         try {
@@ -27,6 +35,14 @@ async function post_conversa(handle_hashed, first_msg_tz) {
 
 async function post_analytics(conversa_id, step_code, last_step_code, first_msg_tz, json_version_code, tag_code, finished, questionnaire_id) {
     const req_url = `${api_url}/analytics`;
+
+    const res = {
+        data: {
+            id: 1
+        }
+    }
+
+    return res
 
     let tries = 0;
     while (tries < 3) {
@@ -57,6 +73,14 @@ async function timeout(analytics_id, timeout_epoch) {
     const req_url = `${api_url}/timeout`;
     console.log('Chegou na func de timeout no WS');
     let tries = 0;
+
+    const res = {
+        data: {
+            id: 1
+        }
+    }
+
+    return res
     while (tries < 3) {
         try {
             const res = await ua.post(req_url, {
