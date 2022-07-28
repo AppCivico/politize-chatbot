@@ -370,6 +370,453 @@ const flow = {
             ]
         },
         {
+            "code": "node_1_1_1",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Por que é importante votar?\n\nNo nosso país, o voto é obrigatório para todos os cidadãos e cidadãos entre 18 e 70 anos. Ele é facultativo para jovens entre 16 e 18 anos e para maiores de 70 anos, assim como para as pessoas analfabetas.\n\nMas nós nunca podemos esquecer que mais do que qualquer outra coisa, o voto é um direito político que foi conquistado ao longo da história e que está garantido no Capítulo IV da nossa Constituição.\n\nE ainda mais do que um direito, ele é uma oportunidade. Você já parou para refletir sobre o que você quer pro futuro? O que está dando certo e o que precisa melhorar no Brasil? É votando que você ajuda a construir o país que você quer.\n\nIsso porque hoje, no Brasil, nós vivemos em uma democracia representativa. Isso quer dizer que os escolhidos representantes e damos a eles o direito de nos representar (tomando decisões) nas instituições políticas.\n\nÉ por isso que precisamos entender bem que são os posicionamentos dos nossos candidatos e se eles estão de acordo com o que acreditamos. Quando compreendemos isso, é através do voto que tem a oportunidade de fazer esses candidatos serem eleitos e possuírem a oportunidade de representar nos representar. Sua participação nas eleições é fundamental para ajudar a definir os rumos do Brasil. Legal, não é?\n\nPara saber mais, você pode ler esses conteúdos da Politize!:\n\nO que é cidadania: https://www.politize.com.br/por-que-e-importante-cidadania/\n\nO que é o voto: https://www.politize.com.br/voto-o-que-e/\nyoutube.com/watch?v=9qFiZ36O3fA&ab_channel=Politize%21\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_2"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que são votos brancos e nulos?\n\nEsse é um assunto que confunde muita gente. Eu mesma já me confundi sobre isso. Quem nunca, não é? Mas fique tranquilo(a) que agora é a hora de entender de uma vez por todas os votos brancos e nulos.\n\nAntes de mais nada, precisamos esclarecer uma lenda urbana bem comum: a de que votos brancos ou nulos, se superiores a 50% dos votos, seriam capazes de anular a eleição. Isso não acontece. \n\nNa prática, o que acontece é que esses votos se tornam inválidos. E o que isso quer dizer? Que eles não influenciam no resultado das eleições majoritárias. Digamos que, nas eleições presidenciais, 99% dos votos seja branco ou nulo, e 1% seja em um candidato. Nesse caso, a eleição segue normalmente, e o candidato eleito será o que recebeu 1% dos votos válidos.\n\nVotos brancos e nulos não anulam a eleição\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_3"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_3",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar um pouco sobre \n\nVice pra que? https://www.youtube.com/watch?v=vqKULOb_xIU&feature=youtu.be\n\nMas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_4"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_4",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Dicas para escolher um bom candidato\n\nhttps://www.youtube.com/watch?v=f3r8-RKh7c4&t=3s&ab_channel=Politize%21\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_5"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_5",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar das datas das eleiçoes e apresentar caminho para calendário eleitoral e para checar seu local de votação\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_6"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_6",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Explicar votos majoritários e proporcionais\n\nExplicar o que é voto de legenda\n\nhttps://www.youtube.com/watch?v=RjcfScj-X6o&t=16s\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_7"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_7",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar dos processos\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_8"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_8",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Citar as fontes para acompanhamento\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_9"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_9",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "FAQ Eleições TSE: https://youtu.be/zjPi0-JMhcs\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_10"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_10",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Lista de atividades permitidas e priobidas\n\nhttps://www.youtube.com/watch?v=dSVVtPeW1fI\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_11"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_11",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar de boas práticas de cidadania além do voto\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_12"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_12",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar de boas práticas de cidadania além do voto\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_13"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_13",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar de boas práticas de cidadania além do voto\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_14"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_14",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Falar de boas práticas de cidadania além do voto\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_15"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_15",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "https://www.youtube.com/watch?v=TeWheT-mFDQ&t=7s\n\nFalar de boas práticas de cidadania além do voto\n\n",
+                "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+                "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_1_end"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_1_end",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Você concluiu nossa trilha sobre eleições! Estou orgulhosa e muito empolgada com isso!\n\nQue tal aprender mais sobre nossas outras trilhas por aqui? Me diz como você quer seguir:\n\n",
+                "1. Quero voltar pro Menu principal\n\n2 Quero voltar para o Menu de  Eleições\n\n3. Tenho uma dúvida não respondida sobre eleições ou sugestão de melhoria para a trilha\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_email"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
             "code": "node_tos_refused",
             "type": "text_message",
             "input_type": "quick_reply",
@@ -379,6 +826,24 @@ const flow = {
             "quick_replies": [
                 {
                     "label": "Voltar",
+                    "metadata": "node_tos"
+                }
+            ]
+        },
+        {
+            "code": "node_end_conversation",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Que pena! Eu gostaria que a gente continuasse, mas fique à vontade para voltar quando quiser, tá?\n\nE não se esqueça que você sempre pode aprender mais sobre política e sobre as eleições sem gastar um centavo, e de forma simples, nos sites da Politize! e do TSE:\n\nO site da Politize! é https://www.politize.com.br e possui mais de 1800 conteúdos publicados nos mais diversos formatos. Todo dia tem conteúdo novo por lá.\n\nO site do TSE é esse aqui: https://www.tse.jus.br/ e, além de te ajudar a verificar a sua situação eleitoral, lá você encontra uma série de ferramentas, como o Fato ou Boato (https://www.justicaeleitoral.jus.br/fato-ou-boato/#), que te auxilia a identificar notícias verdadeiras e falsas. Importante em tempos de Fake News, não é?\n\nOutra dica para receber informação de qualidade sobre eleições e política, é se cadastrar no chatbot do TSE, no Whatsapp, e no Boletim de Conteúdos no site da Politize!.\n\nObrigada por ter vindo me conhecer. Foi um prazer! Tchau!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "Chatbot TSE",
+                    "metadata": "node_tos"
+                },
+                {
+                    "label": "Newsletter Politize",
                     "metadata": "node_tos"
                 }
             ]
