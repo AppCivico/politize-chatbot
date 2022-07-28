@@ -16,64 +16,91 @@ const { time } = require('console');
 const flow = {
     nodes: [
         {
-            "code": "node_1",
+            "code": "node_tos",
             "type": "text_message",
             "input_type": "quick_reply",
             "messages": [
-                "ESTOU VIVO! Você está bem?"
+                "Olá, eu sou a Poli!, a assistente virtual da Politize!, criada em parceria com o Twitter e o Tribunal Superior Eleitoral. Estou feliz em poder tirar as suas dúvidas sobre eleições e te contar um pouco mais sobre o funcionamento da política. Afinal, ela está cada vez mais presente no nosso dia a dia, e não precisa ser chata, nem complicada, não é?",
+                "Ao longo da nossa conversa, vou te oferecer algumas opções de caminhos, mas fique tranquilo(a) que não vou armazenar os seus dados pessoais, ok? Você concorda com os termos?",
+                "https://docs.google.com/document/d/1es0pyuWEacWT3EVEMcLlSdMZCKoxE5Uv/edit?usp=sharing&ouid=105136001704393827539&rtpof=true&sd=true"
             ],
             "quick_replies": [
                 {
-                    "label": "Sim",
-                    "metadata": "node_2"
+                    "label": "Sim, vamos lá!",
+                    "metadata": "node_tos_accepted"
                 },
                 {
-                    "label": "Não",
-                    "metadata": "node_3"
+                    "label": "Não, quem sabe outro dia!",
+                    "metadata": "node_tos_refused"
                 }
-            ],
-            "parent": null,
-            "children": [
-                "node_2",
-                "node_3"
             ]
         },
-
         {
-            "code": "node_2",
+            "code": "node_tos_accepted",
             "type": "text_message",
             "input_type": "quick_reply",
             "messages": [
-                "Que bom!"
+                "Ah, que legal! Estou muito empolgada para mostrar como a política pode ser interessante. A nossa conversa vai ficar por aqui por 24h ou até você encerrá-la, tá bom? Então, fique à vontade para sair e voltar dentro deste período. Vamos lá! Digite um dos números abaixo para começarmos!",
+                "Aperte um dos números abaixo, para eu entender por onde os podermos começar hoje, por favor:",
+                "1. Quero tirar todas as minhas dúvidas sobre eleições.\n2. Quero aprender mais sobre política no geral.\n3. Quero entender como identificar notícias falsas.\n4. Quero dicas de como conversar sobre política de forma saudável.\n5. Quero saber onde encontro dados sobre política.",
+                "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
             ],
             "quick_replies": [
                 {
-                    "label": "Finalizar",
-                    "metadata": "node_4"
+                    "label": "1",
+                    "metadata": "node_1_1"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_2_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_2_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_2_4"
+                },
+                {
+                    "label": "5",
+                    "metadata": "node_2_5"
+                },
+                {
+                    "label": "Quero encerrar",
+                    "metadata": "node_tos"
                 }
-            ],
-            "parent": 'node_1',
-            "children": [
-                "node_4",
             ]
         },
-
         {
-            "code": "node_3",
+            "code": "node_1_1",
             "type": "text_message",
             "input_type": "quick_reply",
             "messages": [
-                "Poxa, que triste!"
+                "Ótima escolha! Estamos em 2022 e nesse ano temos Eleições Gerais. Elas acontecerão no dia 02 de outubro e essa será sua oportunidade de eleger representantes estaduais (Governador e Deputados Estaduais) e Federais (Presidente, Senadores, Deputados Federais).",
+                "Vamos aprender mais sobre essas eleições? Por onde você quer começar? É só digitar o número da questão, e eu sigo com você:",
+                "1. Por que é importante votar?\n2. O que são votos brancos e nulos?\n3. Quais cargos estão em disputa?\n4. Como escolher um(a) bom(oa) candidato(a)?\n5. Onde e quando eu devo ir para votar?\n6. Como funciona o sistema de votação?\n7. Como funciona uma urna eletrônica?\n8. Como acompanhar os resultados das eleições?\n9. O que as pessoas mais pergutam sobre eleições?\n10. O que eu posso e não posso fazer no dia da eleição?\n11. Onde eu posso checar as leis que regem as eleições?\n12. O que pode e o que não pode na propaganda eleitoral?\n13. Como uma campanha pode ser financiada?\n14. Quando uma eleição pode ser anulada?\n15. O que eu devo fazer depois da eleição para ser um(a) bom(a) cidadão(ã)?\n16, Quero voltar para o Menu Inicial",
+                "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
             ],
             "quick_replies": [
                 {
-                    "label": "Finalizar",
-                    "metadata": "node_4"
+                    "label": "Voltar",
+                    "metadata": "node_tos"
                 }
+            ]
+        },
+        {
+            "code": "node_tos_refused",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Que pena! Eu gostaria que a gente continuasse, mas fique à vontade para voltar quando quiser, tá?\nE não se esqueça que você sempre pode aprender mais sobre política e sobre as eleições sem gastar um centavo, e de forma simples, nos sites da Politize! e do TSE:\nO site da Politize! é https://www.politize.com.br e possui mais de 1800 conteúdos publicados nos mais diversos formatos. Todo dia tem conteúdo novo por lá.\nO site do TSE é esse aqui: https://www.tse.jus.br/ e, além de te ajudar a verificar a sua situação eleitoral, lá você encontra uma série de ferramentas, como o Fato ou Boato (https://www.justicaeleitoral.jus.br/fato-ou-boato/#), que te auxilia a identificar notícias verdadeiras e falsas. Importante em tempos de Fake News, não é?\nObrigada por ter vindo me conhecer. Foi um prazer! Tchau!"
             ],
-            "parent": 'node_1',
-            "children": [
-                "node_4",
+            "quick_replies": [
+                {
+                    "label": "Voltar",
+                    "metadata": "node_tos"
+                }
             ]
         }
     ]
