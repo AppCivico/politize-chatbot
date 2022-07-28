@@ -42,7 +42,7 @@ const flow = {
             "messages": [
                 "Ah, que legal! Estou muito empolgada para mostrar como a política pode ser interessante. A nossa conversa vai ficar por aqui por 24h ou até você encerrá-la, tá bom? Então, fique à vontade para sair e voltar dentro deste período. Vamos lá! Digite um dos números abaixo para começarmos!",
                 "Aperte um dos números abaixo, para eu entender por onde os podermos começar hoje, por favor:",
-                "1. Quero tirar todas as minhas dúvidas sobre eleições.\n2. Quero aprender mais sobre política no geral.\n3. Quero entender como identificar notícias falsas.\n4. Quero dicas de como conversar sobre política de forma saudável.\n5. Quero saber onde encontro dados sobre política.",
+                "1. Quero tirar todas as minhas dúvidas sobre eleições.\n\n2. Quero aprender mais sobre política no geral.\n\n3. Quero entender como identificar notícias falsas.\n\n4. Quero dicas de como conversar sobre política de forma saudável.\n\n5. Quero saber onde encontro dados sobre política.",
                 "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
             ],
             "quick_replies": [
@@ -52,23 +52,23 @@ const flow = {
                 },
                 {
                     "label": "2",
-                    "metadata": "node_2_2"
+                    "metadata": "node_1_2"
                 },
                 {
                     "label": "3",
-                    "metadata": "node_2_3"
+                    "metadata": "node_1_3"
                 },
                 {
                     "label": "4",
-                    "metadata": "node_2_4"
+                    "metadata": "node_1_4"
                 },
                 {
                     "label": "5",
-                    "metadata": "node_2_5"
+                    "metadata": "node_1_5"
                 },
                 {
                     "label": "Quero encerrar",
-                    "metadata": "node_tos"
+                    "metadata": "node_tos_refused"
                 }
             ]
         },
@@ -77,15 +77,295 @@ const flow = {
             "type": "text_message",
             "input_type": "quick_reply",
             "messages": [
-                "Ótima escolha! Estamos em 2022 e nesse ano temos Eleições Gerais. Elas acontecerão no dia 02 de outubro e essa será sua oportunidade de eleger representantes estaduais (Governador e Deputados Estaduais) e Federais (Presidente, Senadores, Deputados Federais).",
-                "Vamos aprender mais sobre essas eleições? Por onde você quer começar? É só digitar o número da questão, e eu sigo com você:",
-                "1. Por que é importante votar?\n2. O que são votos brancos e nulos?\n3. Quais cargos estão em disputa?\n4. Como escolher um(a) bom(oa) candidato(a)?\n5. Onde e quando eu devo ir para votar?\n6. Como funciona o sistema de votação?\n7. Como funciona uma urna eletrônica?\n8. Como acompanhar os resultados das eleições?\n9. O que as pessoas mais pergutam sobre eleições?\n10. O que eu posso e não posso fazer no dia da eleição?\n11. Onde eu posso checar as leis que regem as eleições?\n12. O que pode e o que não pode na propaganda eleitoral?\n13. Como uma campanha pode ser financiada?\n14. Quando uma eleição pode ser anulada?\n15. O que eu devo fazer depois da eleição para ser um(a) bom(a) cidadão(ã)?\n16, Quero voltar para o Menu Inicial",
+                "Ótima escolha! Estamos em 2022 e nesse ano temos Eleições Gerais. Elas acontecerão no dia 02 de outubro e essa será sua oportunidade de eleger representantes estaduais (Governador e Deputados Estaduais) e Federais (Presidente, Senadores, Deputados Federais).\n\n",
+                "Vamos aprender mais sobre essas eleições? Por onde você quer começar? É só digitar o número da questão, e eu sigo com você:\n\n",
+                "1. Por que é importante votar?\n\n2. O que são votos brancos e nulos?\n\n3. Quais cargos estão em disputa?\n\n4. Como escolher um(a) bom(oa) candidato(a)?\n\n5. Onde e quando eu devo ir para votar?\n\n6. Como funciona o sistema de votação?\n\n7. Como funciona uma urna eletrônica?\n\n8. Como acompanhar os resultados das eleições?\n\n9. O que as pessoas mais pergutam sobre eleições?\n\n10. O que eu posso e não posso fazer no dia da eleição?\n\n11. Onde eu posso checar as leis que regem as eleições?\n\n12. O que pode e o que não pode na propaganda eleitoral?\n\n13. Como uma campanha pode ser financiada?\n\n14. Quando uma eleição pode ser anulada?\n\n15. O que eu devo fazer depois da eleição para ser um(a) bom(a) cidadão(ã)?\n\n16, Quero voltar para o Menu Inicial",
                 "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
             ],
             "quick_replies": [
                 {
-                    "label": "Voltar",
-                    "metadata": "node_tos"
+                    "label": "1",
+                    "metadata": "node_1_1_1"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_1_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_1_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_1_1_4"
+                },
+                {
+                    "label": "5",
+                    "metadata": "node_1_1_5"
+                },
+                {
+                    "label": "6",
+                    "metadata": "node_1_1_6"
+                },
+                {
+                    "label": "7",
+                    "metadata": "node_1_1_7"
+                },
+                {
+                    "label": "8",
+                    "metadata": "node_1_1_8"
+                },
+                {
+                    "label": "9",
+                    "metadata": "node_1_1_9"
+                },
+                {
+                    "label": "10",
+                    "metadata": "node_1_1_10"
+                },
+                {
+                    "label": "11",
+                    "metadata": "node_1_1_11"
+                },
+                {
+                    "label": "12",
+                    "metadata": "node_1_1_12"
+                },
+                {
+                    "label": "13",
+                    "metadata": "node_1_1_13"
+                },
+                {
+                    "label": "14",
+                    "metadata": "node_1_1_14"
+                },
+                {
+                    "label": "15",
+                    "metadata": "node_1_1_15"
+                },
+                {
+                    "label": "16",
+                    "metadata": "node_1_1_16"
+                },
+                {
+                    "label": "Quero encerrar",
+                    "metadata": "node_tos_refused"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Você não sabe como eu fico feliz em ler isso! É justamente para contar mais sobre a política que a Politize! foi criada e meu olho brilha toda vez que tenho a oportunidade de falar sobre isso com alguém. Tenho uma sugestão de caminho abaixo, mas fique à vontade para começar por qualquer um dos pontos.\n\n",
+                "Vamos lá? Por onde você quer começar? É só digitar o número da questão, e eu sigo com você:\n\n",
+                "1. O que é política?\n\n2. O que é democracia?\n\n3. Quais as principais formas de governo?\n\n4. Quais os principais sistemas de governo?\n\n5. Qual o papel dos três poderes?\n\n6. Para que serve a Constituição?\n\n7. Para que servem os partidos políticos?\n\n8. Como funciona o sistema eleitoral?\n\n9. O que fazem os governantes?\n\n10. Quais as principais correntes de pensamento?\n\n11. O que é a bússola política?\n\n12. O que é cidadania?\n\n13. Quais os direitos e deveres de um cidadão?\n\n14. Quero voltar para o menu principal\n\n",
+                "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_1"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_2_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_1_2_4"
+                },
+                {
+                    "label": "5",
+                    "metadata": "node_1_2_5"
+                },
+                {
+                    "label": "6",
+                    "metadata": "node_1_2_6"
+                },
+                {
+                    "label": "7",
+                    "metadata": "node_1_2_7"
+                },
+                {
+                    "label": "8",
+                    "metadata": "node_1_2_8"
+                },
+                {
+                    "label": "9",
+                    "metadata": "node_1_2_9"
+                },
+                {
+                    "label": "10",
+                    "metadata": "node_1_2_10"
+                },
+                {
+                    "label": "11",
+                    "metadata": "node_1_2_11"
+                },
+                {
+                    "label": "12",
+                    "metadata": "node_1_2_12"
+                },
+                {
+                    "label": "13",
+                    "metadata": "node_1_2_13"
+                },
+                {
+                    "label": "14",
+                    "metadata": "node_1_2_14"
+                },
+                {
+                    "label": "Quero encerrar",
+                    "metadata": "node_tos_refused"
+                }
+            ]
+        },
+        {
+            "code": "node_1_3",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Notícias falsas são um dos principais desafios na sociedade atual. Para você ter uma ideia, X% dos brasileiros já declararam ter caído em notícias falsas ao menos uma vez na vida. Dados indicam que X notícias falsas circulam por aí todos os dias. Elas influenciam nossa forma de ver o mundo e nossas decisões. Mas nenhum de nós quer ser enganado(a), não é? Fique tranquilo(a) que eu te ajudo com isso.\n\n",
+                "Por onde começamos?\n\n",
+                "1. O que é uma notícia falsa?\n\n2. Quais as principais características de uma notícia falsa?\n\n3. Boas práticas ao receber uma notícia\n\n4. Onde checar se uma notícia é verdadeira ou não?\n\n5. Voltar para o menu principal\n\n",
+                "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_3_1"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_3_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_3_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_1_3_4"
+                },
+                {
+                    "label": "5",
+                    "metadata": "node_1_3_5"
+                },
+                {
+                    "label": "Quero encerrar",
+                    "metadata": "node_tos_refused"
+                }
+            ]
+        },
+        {
+            "code": "node_1_4",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Nos últimos anos, tem sido difícil ter conversas em família sobre política, não é? Quem nunca viu um debate mais quente em um grupo da família? Eu mesma tenho posições políticas diferentes dos meus irmãos e dos meus amigos. Mas não é porque pensamos diferente que precisamos brigar, não é? O debate político é um dos pilares da democracia, e não podemos deixar de conversar só porque temos visões diferentes, não é?\n\n",
+                "Vamos conversar um pouco mais sobre isso? Por onde começamos?\n\n",
+                "1. O que é polarização política?\n\n2. Qual a diferença entre um fato e uma opinião? \n\n3. O que é e como usar comunicação não violenta?\n\n4. Dicas para falar sobre política nas redes sociais\n\n5. Projetos sobre diálogos saudáveis pelo Brasil\n\n6. Cuidado com os estereótipos\n\n7. Quero voltar para o menu principal\n\n",
+                "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_1"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_4_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_1_4_4"
+                },
+                {
+                    "label": "5",
+                    "metadata": "node_1_4_5"
+                },
+                {
+                    "label": "6",
+                    "metadata": "node_1_4_6"
+                },
+                {
+                    "label": "7",
+                    "metadata": "node_1_4_7"
+                },
+                {
+                    "label": "Quero encerrar",
+                    "metadata": "node_tos_refused"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Eu já te contei como eu amo explorar dados bem organizados? Eles sempre me ajudam a refletir sobre o mundo que estamos e o mundo que queremos. E eu adoraria poder te ajudar com isso também. Para isso, eu trago algumas dicas sobre onde encontrar dados interessantes. Vem comigo:\n\n",
+                "Pode onde você quer começar?\n\n",
+                "1. Onde encontrar dados sobre eleições?\n\n2. Onde encontrar dados sobre meus candidatos?\n\n3. Onde encontrar dados sobre democracia?\n\n4. Onde encontrar dados sobre polarização?\n\n5. Onde encontrar dados sobre partidos políticos?\n\n6. Onde encontrat dados sobre financiamentos de campanha?\n\n7. Onde encontrar dados sobre o perfil eleitoral dos brasileiros?\n\n8. Onde encontrar dados sobre pesquisas eleitorais?\n\n9. Onde encontrar dados sobre comparecimento eleitoral?\n\n10. Onde encontrar dados sobre a composição do governo brasileiro?\n\n11. Voltar ao Menu Inicial\n\n",
+                "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_1"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_5_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_1_5_4"
+                },
+                {
+                    "label": "5",
+                    "metadata": "node_1_5_5"
+                },
+                {
+                    "label": "6",
+                    "metadata": "node_1_5_6"
+                },
+                {
+                    "label": "7",
+                    "metadata": "node_1_5_7"
+                },
+                {
+                    "label": "8",
+                    "metadata": "node_1_5_8"
+                },
+                {
+                    "label": "9",
+                    "metadata": "node_1_5_9"
+                },
+                {
+                    "label": "10",
+                    "metadata": "node_1_5_10"
+                },
+                {
+                    "label": "11",
+                    "metadata": "node_1_5_11"
+                },
+                {
+                    "label": "Quero encerrar",
+                    "metadata": "node_tos_refused"
                 }
             ]
         },
@@ -94,7 +374,7 @@ const flow = {
             "type": "text_message",
             "input_type": "quick_reply",
             "messages": [
-                "Que pena! Eu gostaria que a gente continuasse, mas fique à vontade para voltar quando quiser, tá?\nE não se esqueça que você sempre pode aprender mais sobre política e sobre as eleições sem gastar um centavo, e de forma simples, nos sites da Politize! e do TSE:\nO site da Politize! é https://www.politize.com.br e possui mais de 1800 conteúdos publicados nos mais diversos formatos. Todo dia tem conteúdo novo por lá.\nO site do TSE é esse aqui: https://www.tse.jus.br/ e, além de te ajudar a verificar a sua situação eleitoral, lá você encontra uma série de ferramentas, como o Fato ou Boato (https://www.justicaeleitoral.jus.br/fato-ou-boato/#), que te auxilia a identificar notícias verdadeiras e falsas. Importante em tempos de Fake News, não é?\nObrigada por ter vindo me conhecer. Foi um prazer! Tchau!"
+                "Que pena! Eu gostaria que a gente continuasse, mas fique à vontade para voltar quando quiser, tá?\n\nE não se esqueça que você sempre pode aprender mais sobre política e sobre as eleições sem gastar um centavo, e de forma simples, nos sites da Politize! e do TSE:\n\nO site da Politize! é https://www.politize.com.br e possui mais de 1800 conteúdos publicados nos mais diversos formatos. Todo dia tem conteúdo novo por lá.\n\nO site do TSE é esse aqui: https://www.tse.jus.br/ e, além de te ajudar a verificar a sua situação eleitoral, lá você encontra uma série de ferramentas, como o Fato ou Boato (https://www.justicaeleitoral.jus.br/fato-ou-boato/#), que te auxilia a identificar notícias verdadeiras e falsas. Importante em tempos de Fake News, não é?\n\nObrigada por ter vindo me conhecer. Foi um prazer! Tchau!"
             ],
             "quick_replies": [
                 {
@@ -238,7 +518,7 @@ router.post('/twitter-webhook', async (req, res) => {
                             await stasher.save_stash(twitter_user_id, stash);
 
                             if (next_node.messages) {
-                                const text = next_node.messages.join('\n');
+                                const text = next_node.messages.join('\n\n');
                                 await twitter_api.send_dm(twitter_user_id, text, next_node.quick_replies);
                             }
                         }
@@ -515,7 +795,7 @@ router.post('/twitter-webhook', async (req, res) => {
                             const messages = node.messages;
                             const attachment = node.attachment;
                             if (messages) {
-                                const text = messages.join('\n');
+                                const text = messages.join('\n\n');
                                 await twitter_api.send_dm(twitter_user_id, text, node.quick_replies, attachment);
                             }
 
@@ -588,7 +868,7 @@ router.post('/twitter-webhook', async (req, res) => {
                                 await stasher.save_stash(twitter_user_id, stash);
 
                                 if (node.messages) {
-                                    const text = node.messages.join('\n');
+                                    const text = node.messages.join('\n\n');
                                     await twitter_api.send_dm(twitter_user_id, text, node.quick_replies);
                                 }
                             }
@@ -631,7 +911,7 @@ router.post('/twitter-webhook', async (req, res) => {
                         // Verificando por mensagens
                         const messages = node.messages;
                         if (messages) {
-                            const text = messages.join('\n');
+                            const text = messages.join('\n\n');
                             await twitter_api.send_dm(twitter_user_id, text, node.quick_replies, node.attachment);
                         }
 
@@ -936,7 +1216,7 @@ router.post('/twitter-webhook', async (req, res) => {
                 // Verificando por mensagens
                 const messages = node.messages;
                 if (messages) {
-                    const text = messages.join('\n');
+                    const text = messages.join('\n\n');
                     await twitter_api.send_dm(twitter_user_id, text, node.quick_replies, node.attachment);
                 }
 
