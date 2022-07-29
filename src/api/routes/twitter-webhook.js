@@ -817,6 +817,719 @@ const flow = {
             ]
         },
         {
+            "code": "node_1_2_1",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que é politizar? https://www.youtube.com/watch?v=Si2NEPvD19g&t=3s \n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_2"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que é uma Democracia - Politize Explica: https://www.youtube.com/watch?v=2Zn-7-RxLdU&t=320s\n\n4 pontos para entender a democracia brasileira: https://youtu.be/widBJFztxgU\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_3"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_3",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_4"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_4",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_5"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_5",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_6"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_6",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "5 fatos sobre a separação dos 3 poderes: https://youtu.be/2i6UMdxIn-k\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_7"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_7",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_8"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_8",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Episódio 1 da série\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_9"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_9",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_10"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_10",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que faz o governador? https://youtu.be/-brnk2m_EAM\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_11"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_11",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que é ideologia? [sugestão] https://youtu.be/DB8AJEW-Yfw\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_12"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_12",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Entre Esquerda e Direita: https://youtu.be/hoyKJlrEYsE\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_13"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_13",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_14"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_14",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_2_end"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_2_1"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_end",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Você concluiu nossa trilha sobre política! Estou orgulhosa e muito empolgada com isso!\n\nQue tal aprender mais sobre nossas outras trilhas por aqui? Me diz como você quer seguir:\n\n",
+                "1. Quero voltar pro Menu principal\n\n2 Quero voltar para o Menu de  Eleições\n\n3. Tenho uma dúvida não respondida sobre eleições ou sugestão de melhoria para a trilha\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_2"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_email"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_3_1",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_3_2"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_3_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_3_3"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_3_3",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_3_4"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_3_4",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_3_end"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_3"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_3_end",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Você concluiu nossa trilha sobre como identificar notícias falsas! Estou orgulhosa e muito empolgada com isso!\n\nQue tal aprender mais sobre nossas outras trilhas por aqui? Me diz como você quer seguir:\n\n",
+                "1. Quero voltar pro Menu principal\n\n2 Quero voltar para o Menu de  Eleições\n\n3. Tenho uma dúvida não respondida sobre eleições ou sugestão de melhoria para a trilha\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_3"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_email"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_4_1",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que é polarização politica? https://youtu.be/1lK1vvwkWcA\n\n",
+                "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_2"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_4_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_3"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_4_3",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_4"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_4_4",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_5"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_5",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_6"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_2_6",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_4_end"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_4_end",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Você concluiu nossa trilha sobre como ter sauváveis sobre política! Estou orgulhosa e muito empolgada com isso!\n\nQue tal aprender mais sobre nossas outras trilhas por aqui? Me diz como você quer seguir:\n\n",
+                "1. Quero voltar pro Menu principal\n\n2 Quero voltar para o Menu de aprendizado de conversas sobre política de forma saudável\n\n3. Tenho uma dúvida não respondida sobre eleições ou sugestão de melhoria para a trilha\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_4"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_email"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
             "code": "node_tos_refused",
             "type": "text_message",
             "input_type": "quick_reply",
@@ -827,6 +1540,298 @@ const flow = {
                 {
                     "label": "Voltar",
                     "metadata": "node_tos"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_1",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que é polarização politica? https://youtu.be/1lK1vvwkWcA\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_2"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_2",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que é uma Democracia - Politize Explica: https://www.youtube.com/watch?v=2Zn-7-RxLdU&t=320s\n\n4 pontos para entender a democracia brasileira: https://youtu.be/widBJFztxgU\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_3"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_3",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_4"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_4",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_5"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_5",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_6"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_6",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "5 fatos sobre a separação dos 3 poderes: https://youtu.be/2i6UMdxIn-k\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_7"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_7",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_8"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_8",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Episódio 1 da série\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_9"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_9",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_10"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_10",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "O que faz o governador? https://youtu.be/-brnk2m_EAM\n\n",
+                "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_1_5_11"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
+                }
+            ]
+        },
+        {
+            "code": "node_1_5_end",
+            "type": "text_message",
+            "input_type": "quick_reply",
+            "messages": [
+                "Você concluiu nossa trilha de dados sobre política!! Estou orgulhosa e muito empolgada com isso!\n\nQue tal aprender mais sobre nossas outras trilhas por aqui? Me diz como você quer seguir:\n\n",
+                "1. Quero voltar pro Menu principal\n\n2 Quero voltar para o Menu de aprendizado de conversas sobre política de forma saudável\n\n3. Tenho uma dúvida não respondida sobre eleições ou sugestão de melhoria para a trilha\n\n4. Quero encerrar a conversa\n\n"
+            ],
+            "quick_replies": [
+                {
+                    "label": "1",
+                    "metadata": "node_tos_accepted"
+                },
+                {
+                    "label": "2",
+                    "metadata": "node_1_5"
+                },
+                {
+                    "label": "3",
+                    "metadata": "node_email"
+                },
+                {
+                    "label": "4",
+                    "metadata": "node_end_conversation"
                 }
             ]
         },
