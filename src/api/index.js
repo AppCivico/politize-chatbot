@@ -12,8 +12,6 @@ const health_check = require('./routes/health-check');
 const twitter_webhook = require('./routes/twitter-webhook');
 const config = require('./routes/config');
 
-const flow = require('./flow.json');
-
 
 const app = express();
 
@@ -60,15 +58,13 @@ app.use(config);
 // }));
 
 
-redis.set('json_config', JSON.stringify(flow));
-// redis.get('json_config');
 
 // Fetch json config
-// chatbot_admin_api.fetch_config_json().then(async (res) => {
-//     console.info('Buscando json de config');
-//     await redis.set('json_config', JSON.stringify(res.data));
-// }).catch(async (err) => {
-//     console.error('erro ao buscar json de configuração: ' + err)
-// });
+chatbot_admin_api.fetch_config_json().then(async (res) => {
+    console.info('Buscando json de config');
+    await redis.set('json_config', JSON.stringify(res.data));
+}).catch(async (err) => {
+    console.error('erro ao buscar json de configuração: ' + err)
+});
 
 module.exports = app;

@@ -51,12 +51,7 @@ async function fetch_config_json() {
 
     return await axios({
         method: 'get',
-        url: process.env.PENHAS_API_URL + '/anon-questionnaires/config',
-        data: bodyFormData,
-        headers: bodyFormData.getHeaders(),
-        params: {
-            token: process.env.PENHAS_API_TOKEN
-        }
+        url: process.env.PENHAS_API_URL + '/json'
     });
 }
 
