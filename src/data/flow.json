@@ -63,7 +63,7 @@
         "messages": [
             "Ótima escolha! Estamos em 2022 e nesse ano temos Eleições Gerais. Elas acontecerão no dia 02 de outubro e essa será sua oportunidade de eleger representantes estaduais (Governador e Deputados Estaduais) e Federais (Presidente, Senadores, Deputados Federais).\n\n",
             "Vamos aprender mais sobre essas eleições? Por onde você quer começar? É só digitar o número da questão, e eu sigo com você:\n\n",
-            "1. Por que é importante votar?\n\n2. O que são votos brancos e nulos?\n\n3. Quais cargos estão em disputa?\n\n4. Como escolher um(a) bom(oa) candidato(a)?\n\n5. Onde e quando eu devo ir para votar?\n\n6. Como funciona o sistema de votação?\n\n7. Como funciona uma urna eletrônica?\n\n8. Como acompanhar os resultados das eleições?\n\n9. O que as pessoas mais pergutam sobre eleições?\n\n10. O que eu posso e não posso fazer no dia da eleição?\n\n11. Onde eu posso checar as leis que regem as eleições?\n\n12. O que pode e o que não pode na propaganda eleitoral?\n\n13. Como uma campanha pode ser financiada?\n\n14. Quando uma eleição pode ser anulada?\n\n15. O que eu devo fazer depois da eleição para ser um(a) bom(a) cidadão(ã)?\n\n16, Quero voltar para o Menu Inicial",
+            "1. Por que é importante votar?\n\n2. O que são votos brancos e nulos?\n\n3. Quais cargos estão em disputa?\n\n4. Como escolher um(a) bom(oa) candidato(a)?\n\n5. Onde e quando eu devo ir para votar?\n\n6. Como funciona o sistema de votação?\n\n7. Como funciona uma urna eletrônica?\n\n8. Como acompanhar os resultados das eleições?\n\n9. Como checar minha situação eleitoral?\n\n10. O que eu posso e não posso fazer no dia da eleição?\n\n11. Onde eu posso checar as leis que regem as eleições?\n\n12. O que pode e o que não pode na propaganda eleitoral?\n\n13. Como uma campanha pode ser financiada?\n\n14. Preciso de biometria para votar nessa eleição?\n\n15. O que eu devo fazer depois da eleição para ser um(a) bom(a) cidadão(ã)?\n\n16. Quero voltar para o Menu Inicial\n\n",
             "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
         ],
         "quick_replies": [
@@ -144,8 +144,8 @@
         "messages": [
             "Você não sabe como eu fico feliz em ler isso! É justamente para contar mais sobre a política que a Politize! foi criada e meu olho brilha toda vez que tenho a oportunidade de falar sobre isso com alguém. Tenho uma sugestão de caminho abaixo, mas fique à vontade para começar por qualquer um dos pontos.\n\n",
             "Vamos lá? Por onde você quer começar? É só digitar o número da questão, e eu sigo com você:\n\n",
-            "1. O que é política?\n\n2. O que é democracia?\n\n3. Quais as principais formas de governo?\n\n4. Quais os principais sistemas de governo?\n\n5. Qual o papel dos três poderes?\n\n6. Para que serve a Constituição?\n\n7. Para que servem os partidos políticos?\n\n8. Como funciona o sistema eleitoral?\n\n9. O que fazem os governantes?\n\n10. Quais as principais correntes de pensamento?\n\n11. O que é a bússola política?\n\n12. O que é cidadania?\n\n13. Quais os direitos e deveres de um cidadão?\n\n14. Quero voltar para o menu principal\n\n",
-            "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
+            "1. O que é política?\n\n2. O que é democracia?\n\n3. Quais as principais formas de governo?\n\n4. Quais os principais sistemas de governo?\n\n5. Qual o papel dos três poderes?\n\n6. Para que serve a Constituição?\n\n7. Para que servem os partidos políticos?\n\n8. Como funciona o sistema eleitoral?\n\n9. O que fazem os governantes?\n\n10. Quais as principais correntes de pensamento?\n\n11. Quais os posicionamentos políticos existentes?\n\n12. O que é cidadania?\n\n13. O que são Políticas Públicas?\n\n14. Quero voltar para o menu principal\n\n",
+            "Caso deseje, você também pode encerrar o atendimento, digitando 'Quero encerrar a conversa'"
         ],
         "quick_replies": [
             {
@@ -201,10 +201,6 @@
                 "metadata": "node_1_2_13"
             },
             {
-                "label": "14",
-                "metadata": "node_1_2_14"
-            },
-            {
                 "label": "Quero encerrar",
                 "metadata": "node_tos_refused"
             }
@@ -215,7 +211,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Notícias falsas são um dos principais desafios na sociedade atual. Para você ter uma ideia, X% dos brasileiros já declararam ter caído em notícias falsas ao menos uma vez na vida. Dados indicam que X notícias falsas circulam por aí todos os dias. Elas influenciam nossa forma de ver o mundo e nossas decisões. Mas nenhum de nós quer ser enganado(a), não é? Fique tranquilo(a) que eu te ajudo com isso.\n\n",
+            "Notícias falsas são um dos principais desafios na sociedade atual. Para você ter uma ideia, 70% dos brasileiros já caiu em ao menos uma notícia falsa, segundo a Avaaz. Elas influenciam nossa forma de ver o mundo e nossas decisões. Mas nenhum de nós quer ser enganado(a), não é? Fique tranquilo(a) que eu te ajudo com isso.\n\n",
             "Por onde começamos?\n\n",
             "1. O que é uma notícia falsa?\n\n2. Quais as principais características de uma notícia falsa?\n\n3. Boas práticas ao receber uma notícia\n\n4. Onde checar se uma notícia é verdadeira ou não?\n\n5. Voltar para o menu principal\n\n",
             "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
@@ -254,7 +250,7 @@
         "messages": [
             "Nos últimos anos, tem sido difícil ter conversas em família sobre política, não é? Quem nunca viu um debate mais quente em um grupo da família? Eu mesma tenho posições políticas diferentes dos meus irmãos e dos meus amigos. Mas não é porque pensamos diferente que precisamos brigar, não é? O debate político é um dos pilares da democracia, e não podemos deixar de conversar só porque temos visões diferentes, não é?\n\n",
             "Vamos conversar um pouco mais sobre isso? Por onde começamos?\n\n",
-            "1. O que é polarização política?\n\n2. Qual a diferença entre um fato e uma opinião? \n\n3. O que é e como usar comunicação não violenta?\n\n4. Dicas para falar sobre política nas redes sociais\n\n5. Projetos sobre diálogos saudáveis pelo Brasil\n\n6. Cuidado com os estereótipos\n\n7. Quero voltar para o menu principal\n\n",
+            "1. O que é polarização política?\n\n2. Qual a diferença entre um fato e uma opinião? \n\n3. O que é e como usar a Comunicação Não Violenta?\n\n4. Dicas para falar sobre política nas redes sociais\n\n5. Projetos sobre diálogos saudáveis pelo Brasil\n\n6. Quero voltar para o menu principal\n\n",
             "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
         ],
         "quick_replies": [
@@ -279,14 +275,6 @@
                 "metadata": "node_1_4_5"
             },
             {
-                "label": "6",
-                "metadata": "node_1_4_6"
-            },
-            {
-                "label": "7",
-                "metadata": "node_1_4_7"
-            },
-            {
                 "label": "Quero encerrar",
                 "metadata": "node_tos_refused"
             }
@@ -299,7 +287,7 @@
         "messages": [
             "Eu já te contei como eu amo explorar dados bem organizados? Eles sempre me ajudam a refletir sobre o mundo que estamos e o mundo que queremos. E eu adoraria poder te ajudar com isso também. Para isso, eu trago algumas dicas sobre onde encontrar dados interessantes. Vem comigo:\n\n",
             "Pode onde você quer começar?\n\n",
-            "1. Onde encontrar dados sobre eleições?\n\n2. Onde encontrar dados sobre meus candidatos?\n\n3. Onde encontrar dados sobre democracia?\n\n4. Onde encontrar dados sobre polarização?\n\n5. Onde encontrar dados sobre partidos políticos?\n\n6. Onde encontrat dados sobre financiamentos de campanha?\n\n7. Onde encontrar dados sobre o perfil eleitoral dos brasileiros?\n\n8. Onde encontrar dados sobre pesquisas eleitorais?\n\n9. Onde encontrar dados sobre comparecimento eleitoral?\n\n10. Onde encontrar dados sobre a composição do governo brasileiro?\n\n11. Voltar ao Menu Inicial\n\n",
+            "1. Onde encontrar dados sobre eleições?\n\n2. Onde encontrar dados sobre a composição do governo brasileiro?\n\n3. Onde encontrar dados sobre democracia?\n\n4. Onde encontrar dados sobre polarização?\n\n5. Onde encontrar dados sobre partidos políticos?\n\n6. Onde encontrar dados sobre a identificação ideológica dos brasileiros?\n\n7. Onde encontrar dados sobre pesquisas eleitorais?\n\n8. Onde encontrar dados sobre comparecimento eleitoral?\n\n9. Voltar para o Menu Inicial\n\n",
             "Não quer mais falar comigo? É só digitar “quero encerrar” e eu me despeço de você!"
         ],
         "quick_replies": [
@@ -334,18 +322,6 @@
             {
                 "label": "8",
                 "metadata": "node_1_5_8"
-            },
-            {
-                "label": "9",
-                "metadata": "node_1_5_9"
-            },
-            {
-                "label": "10",
-                "metadata": "node_1_5_10"
-            },
-            {
-                "label": "11",
-                "metadata": "node_1_5_11"
             },
             {
                 "label": "Quero encerrar",
@@ -386,7 +362,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que são votos brancos e nulos?\n\nEsse é um assunto que confunde muita gente. Eu mesma já me confundi sobre isso. Quem nunca, não é? Mas fique tranquilo(a) que agora é a hora de entender de uma vez por todas os votos brancos e nulos.\n\nAntes de mais nada, precisamos esclarecer uma lenda urbana bem comum: a de que votos brancos ou nulos, se superiores a 50% dos votos, seriam capazes de anular a eleição. Isso não acontece. \n\nNa prática, o que acontece é que esses votos se tornam inválidos. E o que isso quer dizer? Que eles não influenciam no resultado das eleições majoritárias. Digamos que, nas eleições presidenciais, 99% dos votos seja branco ou nulo, e 1% seja em um candidato. Nesse caso, a eleição segue normalmente, e o candidato eleito será o que recebeu 1% dos votos válidos.\n\nVotos brancos e nulos não anulam a eleição\n\n",
+            "Esse é um assunto que confunde muita gente. Eu mesma já me confundi sobre isso. Quem nunca, não é? Mas fique tranquilo(a) que agora é a hora de entender de uma vez por todas os votos brancos e nulos.\n\nO voto em branco acontece quando o eleitor pressiona a tecla “BRANCO” na urna eletrônica e em seguida “CONFIRMA”. Já o voto nulo acontece quando o eleitor vota em um número que não está disponível para votação. Por exemplo, numa eleição onde os números dos candidatos são 1, 2 e 3, o eleitor vota com o número '10'.\n\nÉ importante esclarecer uma lenda urbana bem comum: a de que votos brancos ou nulos, se superiores a 50% dos votos, seriam capazes de anular a eleição. Isso não acontece.\n\nNa prática, o que acontece é que esses votos se tornam inválidos. E o que isso quer dizer? Que eles não influenciam no resultado das eleições majoritárias. Digamos que, nas eleições presidenciais, 99% dos votos seja branco ou nulo, e 1% seja em um candidato. Nesse caso, a eleição segue normalmente, e o candidato eleito será o que recebeu 1% dos votos válidos. Ou seja, votos brancos e nulos não anulam a eleição.\n\nQuer entender mais sobre votos brancos e nulos? A gente te explica por aqui:\n\nDiferença entre brancos e nulos: https://www.politize.com.br/votos-brancos-e-nulos/\n\nVotos brancos e nulos não anulam eleição: https://www.tse.jus.br/comunicacao/noticias/2021/Setembro/votos-brancos-e-nulos-nao-anulam-eleicao-e-sao-considerados-apenas-para-fins-estatisticos\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -414,7 +390,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar um pouco sobre \n\nVice pra que? https://www.youtube.com/watch?v=vqKULOb_xIU&feature=youtu.be\n\nMas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
+            "Quais são os cargos em disputa?\n\nEm anos de eleições, às vezes as disputas pelos cargos do Executivo ganham um pouco mais de evidência. É muito provável que você já tenha se deparado com uma série de pesquisas e notícias a respeito da disputa pela presidência ou pelo governo do seu estado, não é?\n\nMas por mais que os cargos do Executivo sejam extremamente importantes, os outros cargos são tão importantes quanto. Nesse vídeo, eu te conto um pouquinho mais o porquê.\n\nMas você deve estar se perguntando: 'então quais são os outros cargos que eu preciso votar esse ano, Poli?'. Calma, que eu te explico! Nas Eleições Gerais de 2022, além do presidente e do governador, você vai escolher representantes para ocupar os cargos do poder legislativo: deputado federal, deputado estadual ou distrital e senador. Eles irão compor o Congresso Nacional (deputados federais e senadores) e as Assembleias Legislativas do seu estado (deputados estaduais).\n\nQuer entender um pouco mais sobre cada um desses cargos? Nesses conteúdo s eu te explico tudo!:\n\nO que faz um deputado federal: https://www.politize.com.br/deputado-federal-o-que-faz/\n\nO que faz um deputado: estadual:https://www.politize.com.br/deputado-estadual-o-que-faz/\n\nO que faz um presidente: https://www.politize.com.br/presidente-da-republica-o-que-faz/\n\nO que faz um governador:  https://www.youtube.com/watch?v=bQgSSv9pbSs\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -442,7 +418,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Dicas para escolher um bom candidato\n\nhttps://www.youtube.com/watch?v=f3r8-RKh7c4&t=3s&ab_channel=Politize%21\n\n",
+            "Como escolher um(a) bom(oa) candidato(a)?\n\nNão é incomum que no dia da votação, muitas pessoas ainda não saibam em quem votar. Com tantas opções, como saber discernir sobre o que é ou não um bom candidato? Esse é um processo que varia de pessoa para pessoa, mas posso dar algumas dicas para te ajudar.\n\nAntes de conhecer seu candidato, você precisa se conhecer. Para você, qual é o caminho correto para que o Brasil se torne um país melhor? Reflita sobre seu posicionamento ideológico, sobre o que é importante para você e sobre o que você espera de um representante.\n\nFeito isso, é só identificar o candidato que mais se aproxima com o que você busca. Para isso, três dicas básicas são:\n\n1) Conhecer o histórico do seu candidato, refletindo sobre como o passado dele é um indício de como será sua futura gestão.\n\n2) Conhecer o partido e a coligação do seu candidato, entendendo o poder que a legenda tem sobre o trabalho dos políticos eleitos.\n\n3) Compreender as atribuições do cargo, as propostas e a afinidade de pensamento do seu candidato, entendendo como esses três quesitos te ajudam a analisar as promessas feitas durante a campanha.\n\nQuer entender um pouquinho mais? Aqui a gente te explica: https://www.politize.com.br/escolher-seu-candidato-eleicoes-8-passos/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -470,7 +446,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar das datas das eleiçoes e apresentar caminho para calendário eleitoral e para checar seu local de votação\n\n",
+            "Onde e quando eu devo ir para votar?\n\nEstamos cada dia mais perto do dia de ir votar. Espero que você esteja tão animado(a) quanto eu estou! Já regularizei minha situação, baixei o aplicativo do e-Título, pesquisei sobre meus candidatos e até já escolhi a roupa para ir votar! Vai ser o meu momento!\n\nEsse ano, o primeiro turno acontece no dia 02 de outubro, entre 08h e 17h (não deixe para a última hora!) e, onde houver segundo turno, ele vai acontecer no dia 30 de outubro. Se quiser entender melhor quando um segundo turno acontece, nesse texto eu te explico. Mas, em resumo, o segundo turno acontece quando não há maioria absoluta dos votos (50% + 1) para os cargos do Executivo.\n\n“Mas e para saber onde eu voto, Poli? O que eu faço?” É super fácil! É só entrar no site do TSE, digitar seu CPF, sua data de nascimento e o nome da sua mãe, e ele vai te dizer seu local de votação. Confira por lá: https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/consulta-por-nome\n\nPara saber mais, sobre o dia e horário da votação, acesse: https://www.tse.jus.br/imprensa/noticias-tse/2021/Dezembro/horario-de-inicio-de-votacao-em-todo-o-pais-sera-uniformizado-pelo-horario-de-brasilia-decide-tse\n\nE se quiser entender melhor sobre o calendário eleitoral, a gente te explica aqui: https://www.politize.com.br/calendario-eleitoral-2022/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -498,7 +474,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Explicar votos majoritários e proporcionais\n\nExplicar o que é voto de legenda\n\nhttps://www.youtube.com/watch?v=RjcfScj-X6o&t=16s\n\n",
+            "Como funciona o sistema de votação?\n\nSabia que essa também era uma das minhas principais dúvidas quando eu comecei a me interessar por política? Mas, no fim das contas, é bem mais simples do que parece.\n\nA primeira coisa importante a entender é que o sistema eleitoral brasileiro adota dois modelos de votação: um é o majoritário e o outro é o proporcional.\n\nPara os cargos do Poder Executivo (prefeito, governador e presidente) e para o cargo de senador, o Brasil adota o sistema majoritário. Essa é com certeza a parte mais simples de se compreender do nosso sistema eleitoral. De acordo com esse princípio, o candidato mais votado é eleito.\n\nJá para os demais cargos do legislativo (deputados e vereadores) usa-se o sistema proporcional. Na prática, o que acontece nesses casos é que primeiramente são contados os votos gerais conquistados por cada partido (ou coligação). Cada partido ou coligação recebe uma quantidade de vagas legislativas proporcional à sua votação. Nesse caso, existe o chamado 'voto de legenda', quando o eleitor vota diretamente no número do partido que quer que tenha representantes eleitos.\n\nFeito isso, passa-se à segunda etapa, que é definir quais candidatos ocuparão as cadeiras. Essa parte é simples: os candidatos que mais receberam votos têm direito às vagas conquistadas pelo partido/coligação, até que elas acabem. Por exemplo: se o partido A conquistou cinco vagas, os cinco candidatos mais votados do partido ocupam essas vagas.\n\nAinda tem dúvidas? Confira esse post que eu te explico melhor: https://www.politize.com.br/sistema-eleitoral-brasileiro/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -526,7 +502,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar dos processos\n\n",
+            "Como funciona uma urna eletrônica?\n\nSe você já votou algum dia, deve ter ficado emocionado (a) com o barulhinho da urna eletrônica quando confirmou seu voto. Eu, pelo menos, sempre fico!\n\nA urna eletrônica brasileira é um projeto com mais de 25 anos de existência e que serve como modelo de inspiração em todo o mundo, visto que nos últimos anos a Justiça Eleitoral tem se empenhado na organização de “eleições seguras, transparentes e muito rápidas” (TSE).\n\nEm toda eleição elas passam por uma série de procedimentos de avaliação, no chamado TPS (Teste Público de Segurança). Os participantes do TPS tentam corromper a urna e seus componentes internos e externos com o objetivo de descobrir brechas de segurança. E olha só: até hoje não foram encontradas vulnerabilidades que comprometam a segurança do processo eleitoral\n\nDa mesma forma, a urna não está conectada a internet, o que torna praticamente impossível com que ela seja invadida por hackers. Além disso, ela conta com mais de 30 camadas de segurança encadeadas que tornam a fraude nas eleições altamente improvável, em especial no brevíssimo tempo da transmissão de dados, garantindo integridade, confiabilidade e autenticidade.\n\nQuer entender melhor sobre os processos que tornam a urna 100% segura? Confira os conteúdos abaixo:\n\nhttps://www.politize.com.br/urnas-eletronicas-seguras/\n\nhttps://www.tse.jus.br/o-tse/escola-judiciaria-eleitoral/publicacoes/revistas-da-eje/artigos/revista-eletronica-eje-n.-6-ano-4/por-que-a-urna-eletronica-e-segura\n\nEntão, pode ficar tranquilo(a) e votar sem medo!\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -554,7 +530,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Citar as fontes para acompanhamento\n\n",
+            "Como acompanhar os resultados das eleições?\n\nVou te contar um segredo… Eu fico super ansiosa pelo resultado das eleições desde o começo do dia de votação. É o dia mais emocionante do ano para mim. E o lado bom é que, no Brasil, o resultado das eleições sai no mesmo dia! Mas como isso é possível?\n\nÉ possível porque o sistema de votação brasileiro, com a urna eletrônica, torna tudo muito mais rápido e seguro. No final da votação em cada seção eleitoral, é feito o chamado Boletim de Urna, que registra todos os votos que aconteceram em determinada urna. Nesse, com o aplicativo “Boletim na mão”, você pode inclusive acompanhar escanear o QR Code de um boletim. Confira: https://www.youtube.com/watch?v=p8F8OGsFoiA\n\nFechados os votos em cada urna, as apurações são realizadas pelos Tribunais Regionais Eleitorais e pelo Tribunal Superior Eleitoral (para o cargo de presidente). O TSE faz parcerias com veículos de comunicação (Internet, rádio, TV, impresso) para divulgar as eleições e disponibiliza os softwares Divulga e DivWeb (divulga.tse.jus.br), que permitem ao usuário acompanhar a publicação dos resultados em tempo real.\n\nSaiba mais: https://www.tse.jus.br/eleicoes/processo-eleitoral-brasileiro/divulgacao-de-resultados/divulg\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -582,8 +558,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "FAQ Eleições TSE: https://youtu.be/zjPi0-JMhcs\n\n",
-            "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
+            "Como checar minha situação eleitoral?\n\nÉ muito fácil! É só entrar no site do TSE e digitar seu CPF: https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/copy_of_consulta-por-nome\n\nPara ter quitação eleitoral, você deve estar com o voto em dia, ter justificado as ausências e atendido às convocações da Justiça Eleitoral (para trabalhar como mesária ou mesário, por exemplo) ou ter pagado as multas que tiverem sido aplicadas. Caso tenha multas para pagar, você deve emitir o boleto para pagamento. Confira mais sobre isso por aqui: https://www.tse.jus.br/eleitor/titulo-de-eleitor/quitacao-de-multas\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
         "quick_replies": [
@@ -610,7 +585,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Lista de atividades permitidas e priobidas\n\nhttps://www.youtube.com/watch?v=dSVVtPeW1fI\n\n",
+            "O que eu posso e não posso fazer no dia da eleição?\n\nA gente não pode fazer tudo o que quer na vida. E, nas eleições, não daria para ser diferente, não é? Para garantir a tranquilidade do processo, existem algumas regras. E eu te conto quais são:\n\nVocê PODE manifestar de forma individual e silenciosa a sua preferência por partido político, coligação ou candidato, exclusivamente pelo uso de:\n\n• bandeiras;\n\n• broches;\n\n• dísticos;\n\n• adesivos;\n\n• camisetas.\n\nO que você NÃO PODE fazer é tentar influenciar, de qualquer forma, o voto de outra pessoa. Ou seja, NÃO PODE \n\n• Aglomeração de pessoas com vestuário padronizado, bandeiras, broches, dísticos e adesivos padronizados (manifestação coletiva), até o término da votação;\n\n• Uso de alto-falantes e amplificadores de som ou a promoção de comício ou carreata;\n\n• Propaganda de boca de urna;\n\n• Divulgação de qualquer espécie de propaganda de partidos políticos ou de seus candidatos (distribuição de qualquer material de propaganda no dia da eleição), podendo ser mantida a propaganda que tenha sido divulgada na Internet antes do dia da eleição;\n\n• Publicação de novos conteúdos ou o impulsionamento de conteúdos pela internet, podendo ser mantidos em funcionamento as aplicações e os conteúdos publicados anteriormente;\n\n• Derrame de material de propaganda no local de votação ou nas vias próximas, ainda que realizado na véspera da eleição (derramamento de santinhos);\n\n• Manifestação coletiva e/ou ruidosa;\n\n• Abordagem, aliciamento, utilização de métodos de persuasão ou convencimento;\n\n• Distribuição de camisetas.\n\nQuer saber mais sobre como se preparar para o dia das eleições? Eu te conto mais aqui: https://www.politize.com.br/dia-das-eleicoes/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -638,7 +613,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar de boas práticas de cidadania além do voto\n\n",
+            "Onde eu posso checar as leis que regem as eleições?\n\nEu te conto! São 4 as leis principais que regem as eleições no Brasil: o Código Eleitoral, a Lei das Eleições, a Lei dos Partidos Políticos e a Lei da Inelegibilidade.\n\nO Código Eleitoral é a base de todo o processo eleitoral. O mais recente é de 1965 e você pode conferí-lo aqui: https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral\n\n-lei-nb0-4.737-de-15-de-julho-de-1965\n\nA Lei da Eleições  (Lei nº 9.504, de 30 de setembro de 1997) estabelece as atividades que serão realizadas antes e depois dos pleitos pelos partidos políticos e pela Justiça Eleitoral, além de esclarecer o exercício da cidadania aos eleitores. Você pode checar ela por aqui: http://www.planalto.gov.br/ccivil_03/leis/l9504.htm\n\nA Lei dos Partidos Políticos (Lei nº 9.096) está em vigor desde 1995 para regulamentar os direitos e deveres das agremiações partidárias registradas na Justiça Eleitoral e também para orientar a criação de novas legendas. A gente te conta mais sobre ela aqui: https://www.politize.com.br/lei-dos-partidos-politicos/\n\nE a Lei de Inelegibilidade (Lei Complementar nº 64, de 18 de maio de 1990), alterada pela Lei da Ficha Limpa (Lei Complementar nº 135/2010), foi outro grande marco. Ela foi criada para estabelecer, de acordo com o artigo 14 da Constituição Federal, os impedimentos para que determinada pessoa possa concorrer a um cargo público. Confira mais sobre a Lei da Ficha Limpa: https://www.politize.com.br/lei-da-ficha-limpa-entenda/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -666,7 +641,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar de boas práticas de cidadania além do voto\n\n",
+            "O que pode e o que não pode na propaganda eleitoral?\n\nEstamos nos aproximando das eleições e vamos entrar num dos momentos mais decisivos da campanha: o de propaganda eleitoral. Ela será liberada a partir do dia 16 de agosto. Estou muito animada para ouvir as propostas dos candidatos! Mas e as regras para isso?\n\nNo finalzinho do ano passado, a Justiça Eleitoral atualizou algumas regras para a propaganda eleitoral. O documento completo com as atualizações é a  Resolução 23.610. O documento é bem robusto, mas o TSE preparou um resumo dele aqui: https://www.tse.jus.br/comunicacao/noticias/2022/Janeiro/eleicoes-2022-norma-sobre-propaganda-eleitoral-e-horario-gratuito-traz-novidades\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -694,7 +669,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar de boas práticas de cidadania além do voto\n\n",
+            "Como uma campanha pode ser financiada?\n\nNo geral, existem 3 modelos de financiamento de campanha existentes e cada país regula isso de uma forma: financiamento privado, financiamento público e financiamento misto.\n\nO Brasil adota um modelo de financiamento misto, no qual os recursos públicos saem do Fundo Eleitoral e do Fundo Partidário. Já os recursos privados podem vir apenas de doações de pessoas físicas, mas limitadas a 10% dos rendimentos da pessoa no ano anterior e bens que não ultrapassem R$ 40.000.\n\nSe interessou pelo tema? Tenho um conteúdo bem completinho sobre isso pra te mostrar: https://www.politize.com.br/financiamento-de-campanha-eleitoral-como-funciona/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -722,7 +697,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Falar de boas práticas de cidadania além do voto\n\n",
+            "Preciso de biometria para votar nessa eleição?\n\nA biometria foi criada para deixar a votação cada vez mais segura. Eu lembro quando fiz o meu cadastro! Com a minha digital registrada, eu garanto que ninguém pode votar no meu lugar. Então é muito importante que, assim que possível, você faça seu cadastro também. Quem já teve a biometria coletada pela Justiça Eleitoral poderá utilizar as digitais como forma de identificação no dia da eleição.\n\nMas caso ainda não tenha feito, não se preocupe! Todas as pessoas que estiverem com o título regular poderão votar normalmente, mesmo que não tenham biometria coletada pela Justiça Eleitoral.  A coleta de biometria está suspensa desde 2020 devido à pandemia.\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -750,7 +725,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "https://www.youtube.com/watch?v=TeWheT-mFDQ&t=7s\n\nFalar de boas práticas de cidadania além do voto\n\n",
+            "O que eu devo fazer depois da eleição para ser um(a) bom(a) cidadão(ã)?\n\nO voto é apenas o primeiro passo da atuação de um cidadão engajado. Existem diferentes formas de exercer a cidadania além do voto. Além das maneiras tradicionais de participação na política partidária (como candidatar-se a um cargo eletivo, filiar-se ou apoiar um partido político), é possível se engajar em um conjunto de espaços de participação social garantidos por lei, ou até mesmo criar novas formas e estratégias para influenciar as políticas e decisões públicas.\n\n",
+            "Confirma algumas formas de exercer cidadania para além do voto: https://www.politize.com.br/cidadania-formas-de-exercer/\n\n",
             "Mas temos muito mais informação por aqui. Eu conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre eleições\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  Eleições\n\n4. Quero encerrar uma conversa\n\n"
         ],
@@ -805,7 +781,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que é politizar? https://www.youtube.com/watch?v=Si2NEPvD19g&t=3s \n\n",
+            "O que é política?\n\nA gente fala em política todos os dias, mas você já parou para pensar, de fato, no que é a política? Definir o que é política, assim como outras palavras como “amor” e “liberdade”, não é tarefa simples.\n\nDos filósofos aos cientistas políticos, não foram poucos os que tentaram dizer o que é política. Para tornar mais fácil essa missão, eu reuni nesse conteúdo, para você, um pouco mais dessa história, passando pelos significados, funções, e até mesmo pelos lados negativos da política.\n\nQue tal dar uma olhada lá e voltar para me contar o que achou e seguir a trilha?\n\nhttps://www.politize.com.br/o-que-e-politica/\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -832,7 +808,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que é uma Democracia - Politize Explica: https://www.youtube.com/watch?v=2Zn-7-RxLdU&t=320s\n\n4 pontos para entender a democracia brasileira: https://youtu.be/widBJFztxgU\n\n",
+            "O que é democracia?\n\nDemocracia é uma palavra que aparece bastante por aí, mas você sabe o que ela significa? \n\nA democracia é um Regime Político, ou seja, é uma forma de organização do conjunto de instituições políticas do Estado. Em outras palavras, a democracia se aplica à Constituição, ordem eleitoral, instituições administrativas, poderes Legislativo, Executivo e Judiciário e está, acima de tudo, na cultura e no pensamento da sociedade.\n\nO modelo de democracia preponderante nos Estados Modernos, como o Brasil, é a democracia representativa, na qual escolhemos e votamos em candidatos. Mas ela não é o único tipo de democracia que já existiu. No vídeo abaixo, a gente te conta um pouco mais sobre isso\n\nVídeo: O QUE É UMA DEMOCRACIA? | DEFINIÇÕES E CLASSIFICAÇÕES: https://www.youtube.com/watch?v=2Zn-7-RxLdU\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -859,6 +836,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Quais as principais formas de governo?\n\nVocê sabe diferenciar bem um sistema de governo de uma forma de governo? Um sistema de governo se relaciona com como o poder político de um país é dividido e exercido. Basicamente, ele diz respeito à organização e divisão de tarefas entre os poderes Executivo e Legislativo. Já as formas de governo têm relação com a fonte do poder dos governantes de um país. Hoje, as duas principais de governo ainda predominantes são a Monarquia, na qual o poder emana do monarca, e a República, na qual o poder emana do povo.\n\nEu te conto um pouco sobre Monarquia neste conteúdo: https://www.politize.com.br/monarquia-e-republica-qual-a-diferenca/\n\nE sobre República neste conteúdo: https://www.politize.com.br/republica/\n\nE aqui você entender melhor as diferenças entre uma e outra forma: https://www.politize.com.br/monarquia-e-republica-qual-a-diferenca/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -885,6 +864,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Quais os principais sistemas de governo?\n\nOs três principais sistemas de governo representativo são o Parlamentarismo, o Presidencialismo e o Semi-Presidencialismo. Nos vídeos abaixo, você pode aprender um pouquinho sobre cada um deles.\n\nPresidencialismo: https://www.youtube.com/watch?v=SdcfMuJNRNw\n\nParlamentarismo: https://www.youtube.com/watch?v=Dqln7fGC24E\n\nSemipresidencialismo: https://www.youtube.com/watch?v=BZcQHXW8zWQ\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -911,6 +892,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Qual o papel dos três poderes?\n\nEssa é um tema muito importante de se entender. Justamente por isso, eu montei um infográfico para você. E, caso queira se aprofundar, você pode acessar esse texto que vai ainda mais a fundo nesse ponto: https://www.politize.com.br/separacao-dos-tres-poderes-executivo-legislativo-e-judiciario/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -937,7 +920,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "5 fatos sobre a separação dos 3 poderes: https://youtu.be/2i6UMdxIn-k\n\n",
+            "Para que serve a Constituição?\n\nEla é meu documento preferido. Sabe por quê? Porque é ela  que rege todo o ordenamento jurídico brasileiro hoje. É o principal documento brasileiro. A Constituição que temos hoje é a chamada “Constituição Cidadão”. Desde a independência do Brasil em 1822, é a sétima constituição que nosso país tem – e a sexta desde que somos uma República.\n\nSe interessou pelo tema? Eu tenho uma trilha que te conta um pouco mais das Constituições do Brasil e um infográfico para te ajudar e entender porque do nome “Constituição Cidadã”. Não deixa de dar uma olhada, tá? https://www.politize.com.br/constituicoes-do-brasil-resumo/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -964,6 +948,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Para que servem os partidos políticos?\n\nVocê sabia que o Brasil atualmente conta com 32 partidos políticos registrados no TSE? É muito partido, né? Mas para que eles servem?\n\nSe formos resumir, são três funções principais: lançar candidaturas, já que no Brasil é preciso estar filiado a um partido para se candidatar; elaborar agendas políticas, que determinam o que é e o que não é prioridade para aquele partido; e incentivar ao debate público, levando suas ideias para a sociedade com o objetivo de conquistar adeptos para suas ideias e fomentar o debate público de acordo com a sua ideologia.\n\nPara entender mais sobre partidos, você pode conferir nosso conteúdo sobre suas funções: https://www.politize.com.br/funcoes-dos-partidos-politicos/\n\nE acompanhar a série no YouTube sobre os principais partidos brasileiros: https://www.youtube.com/watch?v=i2MwroTov-4&list=PLNoTZ80K4L20KD7OXjHNgUndYo_kqjZE3\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -990,7 +976,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Episódio 1 da série\n\n",
+            "Como funciona o sistema eleitoral?\n\nA gente precisa entender o sistema em que os nossos representantes são eleitos, para entender como nosso voto se aplica, não é? O sistema eleitoral brasileiro não é tão difícil de entender, mas tem muitos detalhes. Para te ajudar, eu tenho um vídeo de 10 minutinhos que passa sobre tudo. Prometo que você vai sair dele craque nesse tema. Vamos lá?\n\nhttps://www.youtube.com/watch?v=RjcfScj-X6o&t=407s\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1017,6 +1004,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "O que fazem os governantes?\n\nJá se perguntou para que serve cada cargo? Eu sempre fiquei curiosa sobre quem pode fazer uma lei, quem pode aprovar o orçamento público, quem pode declarar guerra, entre tantas outras coisas. Mas essas dúvidas acabaram quando eu conheci a Politize!. Temos textos para te explicar em detalhes para que serve cada gargo.\n\nO que faz um prefeito: https://www.politize.com.br/o-que-faz-um-prefeito/\n\nO que faz um vereador: https://www.politize.com.br/papel-do-vereador/\n\nO que faz um presidente: https://www.politize.com.br/presidente-da-republica-o-que-faz/\n\nO que faz um deputado federal: https://www.politize.com.br/deputado-federal-o-que-faz/\n\nO que faz um deputado estadual: https://www.politize.com.br/deputado-estadual-o-que-faz/\n\nO que faz um governador: https://www.politize.com.br/governador-o-que-faz/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1043,7 +1032,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que faz o governador? https://youtu.be/-brnk2m_EAM\n\n",
+            "Quais as principais correntes de pensamento?\n\nEntender as correntes de pensamento é uma das bases para entender a política e os debates que ela envolve. Algumas das principais correntes de pensamento existentes são: a social-democracia, o conservadorismo, o libertarianismo, o socialismo, comunismo, o anarquismo, o progressismo, entre outras.Para te ajudar a dar os primeiros passos nesse mundo de correntes de pensamento, que amplo e segue sendo construído e adaptado aos tempos atuais, eu tenho uma trilha de conteúdos feita com muito carinho para você.\n\nConfira nossa trilha sobre correntes de pensamento: https://www.politize.com.br/correntes-de-pensamento-politico/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1070,7 +1060,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que é ideologia? [sugestão] https://youtu.be/DB8AJEW-Yfw\n\n",
+            "Quais os posicionamentos políticos existentes?\n\nAfinal, o que significa ser de esquerda ou de direita? Como saber de qual posicionamento você mais? E o que existe no meio disso tudo? Todas essas dúvidas estão relacionadas ao chamado espectro político.\n\nEu preparei um conteúdo com muito carinho, para te explicar um pouco mais sobre ele e o debate que isso envolve. Que tal dar uma olhada e conversar com um amigo sobre: https://www.politize.com.br/espectro-politico/.\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1097,7 +1088,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Entre Esquerda e Direita: https://youtu.be/hoyKJlrEYsE\n\n",
+            "O que é cidadania?\n\nCidadania é outra das palavrinhas clássicas que aparecem por aí e que, às vezes, não sabemos exatamente o que quer dizer. Mas eu te conto!\n\nA cidadania está relacionada a um conjunto de direitos e deveres previstos na Constitução. Ser cidadão é ter consciência de que é um sujeito de direitos. Direitos à vida, à liberdade, à propriedade, à igualdade, enfim, direitos civis, políticos e sociais.\n\nEntretanto, a cidadania pressupõe também deveres. O cidadão tem que ser consciente das suas responsabilidades enquanto parte integrante de um grande e complexo organismo que é a coletividade e, para que alcancemos o bom funcionamento, todos têm que dar sua parcela de contribuição. \n\nNesse conteúdo eu te explico um pouco mais sobre o exercício da cidadania: https://www.politize.com.br/exercicio-da-cidadania/\n\nE aqui eu te explico os seus direitos fundamentais previstos na Constituição: https://www.politize.com.br/artigo-5/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1124,32 +1116,7 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
-        ],
-        "quick_replies": [
-            {
-                "label": "1",
-                "metadata": "node_1_2_14"
-            },
-            {
-                "label": "2",
-                "metadata": "node_tos_accepted"
-            },
-            {
-                "label": "3",
-                "metadata": "node_1_2_1"
-            },
-            {
-                "label": "4",
-                "metadata": "node_end_conversation"
-            }
-        ]
-    },
-    {
-        "code": "node_1_2_14",
-        "type": "text_message",
-        "input_type": "quick_reply",
-        "messages": [
+            "O que são Políticas Públicas?\n\nPra fechar essa trilha, eu vou te contar sobre uma das principais funções de um governo: a criação de Políticas Públicas. Nesse vídeo, eu te conto em dois minutos o que são as Políticas Públicas.\n\nhttps://youtu.be/ehLZKqU1QQw\n\nE, caso queira se aprofundar, temos uma trilha bem completa sobre essa temática: https://www.politize.com.br/politicas-publicas/\n\nA Politize!, inclusive, desenvolveu um material para te ajudar a formular políticas públicas: confira o Canvas de Políticas Públicas: https://www.politize.com.br/wp-content/uploads/2022/07/Canvas-de-politicas-publicas-1.pdf\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1203,6 +1170,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "O que é uma notícia falsa?\n\nEntender o que é uma notícia falsa é um tema extremamente importante. Por isso, eu preparei esse conteúdo para te contextualizar: https://www.politize.com.br/noticias-falsas-pos-verdade/\n\nAs notícias falsas atualmente buscam disseminar boatos e inverdades com informações que não estão 100% corretas sobre pessoas, partidos políticos, países, políticas públicas… Elas não vão aparentar ser mentira, ainda mais se nós acreditamos que elas podem ser verdadeiras – mas não são. Por isso, é muito importante tomar cuidado.\n\nQue tal conferir o nosso infográfico sobre o tema?\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1229,6 +1198,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Como denunciar notícias falsas nas redes sociais?\n\nTão importante quanto saber identificar notícias falsas, é ajudar a evitar que elas se disseminem nas redes sociais. Pensando nisso, a Agência Lupa preparou uma série de vídeos ensinando o passo a passo para denunciar conteúdos falsos nas principais redes sociais:\n\nConfira o passo a passo trazido pela Lupa: https://lupa.uol.com.br/jornalismo/2022/07/27/denunciar-conteudos-falsos\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1255,6 +1226,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Boas práticas ao receber uma notícia\n\nHoje em dia, tudo é muito corrido e às vezes compartilhamos informações sem verificar, de fato, se o que recebemos realmente aconteceu. E isso se torna um problema justamente pelo fato de que as notícias falsas são muito mais numerosas e se propagam mais rápido que as verdadeiras. Ninguém gosta de ser enganado, não é?  Por isso, é importante tomar alguns cuidados antes de acreditar e compartilhar algo.\n\nDicas para descobrir se uma informação é verdadeira ou não\n\n1. Fique atento à fonte da notícia (é um veículo que você conhece? é confiável?)\n\n2. Leia o texto da matéria, não apenas o título (o que foi escrito faz sentido de fato?)\n\n3. Preste atenção no endereço eletrônico da reportagem (a fonte é realmente quem diz que é?)\n\n4. Leia outras notícias do mesmo site e avalie a veracidade (o site passa credibilidade?)\n\n5. Procure saber sobre o site que publicou a informação (quem está por trás deles?)\n\n6. Preocupe-se com o conteúdo de sites sensacionalistas\n\n7. Leia com atenção e fique atento aos erros de ortografia \n\n8. Confirme a notícia em outros sites (ela é apresentada da mesma forma?)\n\n9. Cheque a data de publicação da reportagem (é uma notícia atual?)\n\n10. Confira a autoria do texto (o autor é confiável?)\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1281,6 +1254,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Onde checar se uma notícia é verdadeira ou não?\n\nHoje em dia, tem muita notícia falsa por aí. Conforme aponta um dado trazido pelo TSE (https://www.tse.jus.br/comunicacao/noticias/2022/Junho/pilulas-contra-a-desinformacao-noticias-falsas-circulam-70-mais-rapido-do-que-as-verdadeiras), as notícias falsas circulam 70% mais rápido que as verdadeiras. Mas a boa notícia é que tem muita gente honesta e bem capacitada trabalhando para ajudar a identificar o que é Fato e o que é Boato. Confira a iniciativa do TSE e organizações parceiras. \n\nFato ou Boato (https://www.justicaeleitoral.jus.br/fato-ou-boato/): iniciativa do TSE, com 9 agências - AFP, Agência Lupa, Aos Fatos, Boatos.org, Comprova, E-Farsas, Estadão Verifica, Fato ou Fake e UOL Confere\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre como identificar notícias falsas\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre como identificar notícias falsas\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1334,7 +1309,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que é polarização politica? https://youtu.be/1lK1vvwkWcA\n\n",
+            "O que é polarização política?\n\nUma palavrinha que tem aparecido bastante na política brasileira é “polarização”. Você já deve ter ouvido, né? Uma pesquisa do Instituto Ipsos (https://www.ipsos.com/pt-br/culture-wars-around-world-polarizacao-partidaria-e-apontada-como-maior-causa-de-tensao-no-brasil) com 28 países apontou que a polarização é  principal causa de tensão política no Brasil. Mas o que ela é?\n\nNa política, o significado estrito de polarização é simplesmente a divisão de uma sociedade em dois pólos a respeito de um determinado tema. Porém, essa palavra tem sido usada de um modo mais negativo: polarização é como chamamos a disputa entre dois grupos que se fecham em suas convicções e não estão dispostos ao diálogo.\n\nNeste conteúdo (https://www.politize.com.br/o-que-e-polarizacao/), te conto um pouco mais sobre o que a polarização nesse último sentido é, e os riscos que ela traz. Que tal dar uma olhada?\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1361,6 +1337,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Qual a diferença entre um fato e uma opinião? \n\nNossas opiniões são embasadas em vivências de vida, na forma com que enxergamos o mundo. O problema disso é que podemos esquecer que nem todo mundo vive como a gente. Temos acesso a uma visão bastante limitada da realidade e isso coloca em cheque o quanto sabemos de algo, quando não recorremos à ciência.\n\nUm fato, por sua vez, é um dado consolidado, independente da visão que temos sobre ele. Por isso, procure ler o maior número de estudos sobre o tema em debate. Evite buscar respostas apenas na sua vivência, pois ela diz respeito somente à sua própria realidade e quase sempre carregada de muitas emoções.\n\nE se estiver em dúvida se algo é um fato ou só está tentando se passar por um, confira o Fato ou Boato, preparado pela Justiça Eleitoral: https://www.justicaeleitoral.jus.br/fato-ou-boato/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1387,6 +1365,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "O que é e como usar a Comunicação Não Violenta?\n\nSe tem uma habilidade que é essencial para qualquer momento da vida é a comunicação não-violenta.\n\nNão importa o lugar que você esteja ou lugar que você veio, você vai precisar dela. A boa notícia é que a comunicação não-violenta é uma habilidade que pode ser aprendida por qualquer pessoa. Ela é uma abordagem criada por Marshall Rosenberg (1934-2015) e consiste em um ciclo de 4 etapas: ouvir, indagar, compreender e argumentar. Te explico um pouco mais sobre por aqui: https://www.politize.com.br/comunicacao-nao-violenta/. Você também pode conferir o resumo do ciclo da CNV abaixo:\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1413,6 +1393,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Dicas para falar sobre política nas redes sociais\n\nO nosso mundo hoje é cada vez mais influenciado pelas redes sociais, não é? Mas por mais que elas tenham surgido para nos aproximar, às vezes elas tem o efeito oposto. Debater política em ambientes em que não podemos olhar nos olhos da pessoa com quem estamos debatendo, ouvir seu tom de voz, ver seus gestos, pode ser mais difícil, pois abre margem para interpretações erradas. \n\nMas calma, eu tenho um material muito legal para te sugerir sobre isso. Esse Guia Prático para Conversas Online traz uma série de dicas para tornar suas conversas na internet cada vez mais saudáveis: https://despolarize.org.br/wp-content/uploads/2021/11/GUIA-PRA%CC%81TICO-PARA-CONVERSAS-ONLINE.pdf\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1435,36 +1417,12 @@
         ]
     },
     {
-        "code": "node_1_2_5",
+        "code": "node_1_4_5",
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
-        ],
-        "quick_replies": [
-            {
-                "label": "1",
-                "metadata": "node_1_4_6"
-            },
-            {
-                "label": "2",
-                "metadata": "node_tos_accepted"
-            },
-            {
-                "label": "3",
-                "metadata": "node_1_4"
-            },
-            {
-                "label": "4",
-                "metadata": "node_end_conversation"
-            }
-        ]
-    },
-    {
-        "code": "node_1_2_6",
-        "type": "text_message",
-        "input_type": "quick_reply",
-        "messages": [
+            "Projetos sobre diálogos saudáveis pelo Brasil\n\nTem algum projeto sobre diálogo político que quer eu divulgue? É só me enviar pelo email chatbot@politize.com.br e eu conto mais sobre ele por aqui. Enquanto isso, que tal dar uma olhada no Despolarize?\n\nO Despolarize busca valorizar a cultura de diálogo e negociação de conflitos para descontaminar o ambiente democrático no Brasil e combater a violência política através da maior atenção para os riscos da polarização e de práticas que promovam mudanças de comportamento e reduzam a hostilidade. O projeto surgiu em 2019, inicialmente em parceria com o Politize!. Veja alguns dos materiais criados em: https://despolarize.org.br/biblioteca/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre conversas como ter sauváveis sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1532,7 +1490,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que é polarização politica? https://youtu.be/1lK1vvwkWcA\n\n",
+            "Onde encontrar dados sobre eleições?\n\nO TSE reuniu os principais dados sobre eleições em uma página bem intuitiva, de estatísticas eleitorais. Ali você pode conferir os principais dados sobre as últimas eleições brasileiras.\n\nSistema de Estatísticas Eleitorais TSE: https://sig.tse.jus.br/ords/dwapr/seai/r/sig-eleicao/estatisticas-eleicao?session=15824254483942\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1559,7 +1518,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "O que é uma Democracia - Politize Explica: https://www.youtube.com/watch?v=2Zn-7-RxLdU&t=320s\n\n4 pontos para entender a democracia brasileira: https://youtu.be/widBJFztxgU\n\n",
+            "Onde encontrar dados sobre a composição do governo brasileiro?\n\nNeste infográfico, do bluevision, você pode conferir como ficou a composição do Congresso Nacional brasileiro em termos de diversidade após as eleições de 2018: https://bluevisionbraskem.com/desenvolvimento-humano/diversidade-no-congresso-veja-quem-sao-os-eleitos-pelo-voto-no-brasil/\n\nO TSE também possui todo o histórico de dados sobre os candidatos eleitos no Brasil, que pode ser conferido aqui: https://www.tse.jus.br/eleicoes/eleicoes-anteriores\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1586,6 +1546,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Onde encontrar dados sobre democracia?\n\nDois índices interessantes sobre democracia são o Democracy Index e o Global Freedom Status. Ambos contam com uma série de indicadores para tentar avaliar o estado da democracia em diferentes países pelo mundo. \n\nDemocracy Index - The Economist: https://www.eiu.com/n/campaigns/democracy-index-2021/\n\nGlobal Freedom Status - Freedom House: https://freedomhouse.org/explore-the-map?type=fiw&year=2022\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1612,6 +1574,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Onde encontrar dados sobre polarização?\n\nTe trago duas pesquisas interessantes, que ajudam a embasar debates sobre o tema:\n\nInstituto Ipsos -> Polarização no Brasil: https://www.ipsos.com/pt-br/culture-wars-around-world-polarizacao-partidaria-e-apontada-como-maior-causa-de-tensao-no-brasil\n\nInstituto Locomotiva -> Polarização no Brasil: https://despolarize.org.br/despolarize-divulga-pesquisa-polarizacao-politica-no-brasil/\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1638,6 +1602,9 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Onde encontrar dados sobre partidos políticos?\n\nNo site do TSE você pode conferir todos os partidos registrados no Brasil: https://www.tse.jus.br/partidos/partidos-registrados-no-tse\n\nLá você também pode conferir todas as federações partiárias: https://www.tse.jus.br/partidos/federacoes-registradas-no-tse/federacoes-partidarias-registradas-no-tse\n\nAs prestações de contas dos partidos: https://www.tse.jus.br/partidos/contas-partidarias/prestacao-de-contas/consulta-prestacao-contas\n\nDados sobre filiação, entre outros: https://www.tse.jus.br/partidos/filiacao-partidaria/filiacao-partidaria. Ali, por exemplo, você pode conferir os partidos com o maior número de filiados: https://www.tre-go.jus.br/comunicacao/noticias/2021/Junho/brasil-tem-16-milhoes-de-pessoas-filiadas-a-partidos-politicos\n\n",
+            "Já para entender mais sobre o que cada partido defende, você pode entrar direto em seus sites e ler o estatuto do partido.\n\n"
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1664,7 +1631,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "5 fatos sobre a separação dos 3 poderes: https://youtu.be/2i6UMdxIn-k\n\n",
+            "Onde encontrar dados sobre a identificação ideológica dos brasileiros?\n\nO Instituto Datafolha já realizou alguns levantamentos sobre essa temática. O mais recente é de 2022 e você pode conferir aqui seus resultados: https://www1.folha.uol.com.br/poder/2022/06/datafolha-identificacao-com-a-esquerda-cresce-e-vai-a-49-da-populacao-direita-recua.shtml\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1691,6 +1659,8 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
+            "Onde encontrar dados sobre pesquisas eleitorais?\n\nHoje em dia, muita gente tem feito pesquisas eleitorais. E, em meio a isso, muita gente ainda tem dúvidas a respeito de como elas são feitas. Para sanar essas dúvidas, preparamos um conteúdo sobre o funcionamento de uma pesquisa eleitoral: https://www.politize.com.br/pesquisas-eleitorais-como-sao-feitas/\n\nDito isso, todas as pesquisas realizadas no Brasil precisam ser registradas junto à Justiça Eleitoral. Com isso, é possível realizar uma série de consultas junto à Justiça Eleitoral. Bora conferir?\n\nConsulta às pesquisas registradas: https://www.tse.jus.br/eleicoes/pesquisa-eleitorais/consulta-as-pesquisas-registradas\n\nConsulta às pesquisas eleitorais por estatísticos: https://www.tse.jus.br/eleicoes/pesquisa-eleitorais/consulta-pesquisas-eleitorais-por-estatisticos\n\nConsulta às pesquisas registradas nos últimos 30 dias: https://www.tse.jus.br/eleicoes/pesquisa-eleitorais/consultar-as-pesquisas-eleitorais-registradas-nos-ultimos-30-dias\n\nRegistro de empresas e entidades de pesquisas e cadastro de pesquisas: https://www.tse.jus.br/eleicoes/pesquisa-eleitorais/registro-de-empresas-e-entidades-de-pesquisas-e-cadastro-de-pesquisas\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
@@ -1717,66 +1687,14 @@
         "type": "text_message",
         "input_type": "quick_reply",
         "messages": [
-            "Episódio 1 da série\n\n",
+            "Onde encontrar dados sobre comparecimento eleitoral?\n\nNo Sistema de Estatísticas Eleitorais do TSE você pode encontrar os dados de comparecimento eleitoral desde 2012, detalhados por gênero, faixa etária, estado civil, grau de instrução, entre outros: https://sig.tse.jus.br/ords/dwapr/seai/r/sig-eleicao-comp-abst/home?session=4802288792593\n\n",
+            "Mas temos muito mais informação por aqui. Me conta, como você quer seguir?\n\n",
             "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
         ],
         "quick_replies": [
             {
                 "label": "1",
-                "metadata": "node_1_5_9"
-            },
-            {
-                "label": "2",
-                "metadata": "node_tos_accepted"
-            },
-            {
-                "label": "3",
-                "metadata": "node_1_5"
-            },
-            {
-                "label": "4",
-                "metadata": "node_end_conversation"
-            }
-        ]
-    },
-    {
-        "code": "node_1_5_9",
-        "type": "text_message",
-        "input_type": "quick_reply",
-        "messages": [
-            "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
-        ],
-        "quick_replies": [
-            {
-                "label": "1",
-                "metadata": "node_1_5_10"
-            },
-            {
-                "label": "2",
-                "metadata": "node_tos_accepted"
-            },
-            {
-                "label": "3",
-                "metadata": "node_1_5"
-            },
-            {
-                "label": "4",
-                "metadata": "node_end_conversation"
-            }
-        ]
-    },
-    {
-        "code": "node_1_5_10",
-        "type": "text_message",
-        "input_type": "quick_reply",
-        "messages": [
-            "O que faz o governador? https://youtu.be/-brnk2m_EAM\n\n",
-            "1. Quero ir para o próximo tópico sobre política\n\n2. Quero voltar pro Menu principal\n\n3. Quero voltar para o Menu de  aprendizado sobre política\n\n4. Quero encerrar a conversa\n\n"
-        ],
-        "quick_replies": [
-            {
-                "label": "1",
-                "metadata": "node_1_5_11"
+                "metadata": "node_1_5_end"
             },
             {
                 "label": "2",
