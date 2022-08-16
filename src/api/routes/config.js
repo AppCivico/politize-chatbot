@@ -6,8 +6,7 @@ const redis = require('../../storage/redis');
 
 router.post('/config', async (req, res) => {
     const config_req = await penhas_api.fetch_config_json();
-    console.log(await redis.set('json_config', JSON.stringify(config_req.data)));
-    console.log(await redis.get('json_config'));
+    await redis.set('json_config', JSON.stringify(config_req.data));
 
     res.json({ message: 'OK' });
 });
