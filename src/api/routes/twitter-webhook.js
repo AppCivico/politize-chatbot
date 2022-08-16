@@ -1989,7 +1989,9 @@ router.post('/twitter-webhook', async (req, res) => {
 
                             if (next_node.messages) {
                                 const text = next_node.messages.join('\n\n');
-                                await twitter_api.send_dm(twitter_user_id, text, next_node.quick_replies);
+                                const attachment = node.attachment;
+
+                                await twitter_api.send_dm(twitter_user_id, text, next_node.quick_replies, attachment);
                             }
                         }
                     } else {
