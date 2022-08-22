@@ -802,7 +802,7 @@ router.post('/twitter-webhook', async (req, res) => {
                                 });
                                 console.log("Message sent: %s", info.messageId);
 
-                                const next_node = flow.nodes.filter((n) => {
+                                let next_node = flow.nodes.filter((n) => {
                                     return n.code === node.feedback_node;
                                 });
                                 next_node = next_node[0];
