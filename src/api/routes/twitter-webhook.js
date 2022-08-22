@@ -4,6 +4,8 @@ const crypto = require('crypto');
 const Twitter = require('twitter-lite');
 const FormData = require('form-data');
 const axios = require('axios');
+const nodemailer = require("nodemailer");
+
 
 const stasher = require('../stash');
 const redis = require('../../storage/redis');
@@ -780,7 +782,26 @@ router.post('/twitter-webhook', async (req, res) => {
 
                         }
                         else {
-                            console.log(stash);
+                            if (node.input_type === 'text' && node.is_email) {
+                                const transporter = nodemailer.createTransport({
+                                    host: process.env.SMTP_HOST,
+                                    port: process.env.SMTP_PORT,
+                                    secure: false,
+                                    auth: {
+                                      user: process.env.SMTP_USER,
+                                      pass: process.env.SMTP_PASS,
+                                    },
+                                });
+
+                                const info = await transporter.sendMail({
+                                    from: 'contato@appcivico.com', // sender address
+                                    to: process.env.EMAIL_TO, // list of receivers
+                                    subject: "Chatbot Politize - Nova mensagem de sugestão", // Subject line
+                                    text: sent_msg, // plain text body
+                                    // html: "<b>Hello world?</b>", // html body
+                                });
+                                console.log("Message sent: %s", info.messageId);
+                            }
                             // Set counter for error messages
                             if (!stash.error_msg_count) {
                                 stash.error_msg_count = 1;
