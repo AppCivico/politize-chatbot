@@ -801,41 +801,52 @@ router.post('/twitter-webhook', async (req, res) => {
                                     // html: "<b>Hello world?</b>", // html body
                                 });
                                 console.log("Message sent: %s", info.messageId);
-                            }
-                            // Set counter for error messages
-                            if (!stash.error_msg_count) {
-                                stash.error_msg_count = 1;
+
+                                const next_node = flow.nodes.filter((n) => {
+                                    return n.code === node.feedback_node;
+                                });
+                                next_node = next_node[0];
+
+                                const analytics_post = await analytics_api.post_analytics(stash.conversa_id, next_node.code, stash.current_node, stash.first_msg_tz, 1, undefined, 'DURING_DECISION_TREE');
+                                const analytics_id = analytics_post.data.id;
+                                stash.current_node = next_node.code;
+                                stash.last_analytics_id = analytics_id;
+                                
+                                stash.current_node = next_node.code;
+                                stash.current_questionnaire_options = next_node.quick_replies;
+                                await stasher.save_stash(twitter_user_id, stash);
+
+                                if (next_node.messages) {
+                                    const text = next_node.messages.join('\n\n');
+                                    const attachment = next_node.attachment;
+
+                                    await twitter_api.send_dm(twitter_user_id, text, next_node.quick_replies, attachment);
+                                }
+
+                            } else {
+
+                                // Set counter for error messages
+                                if (!stash.error_msg_count) {
+                                    stash.error_msg_count = 1;
+                                    await stasher.save_stash(twitter_user_id, stash);
+                                }
+    
+                                let error_msg = flow.error_msg;
+    
+                                // Send error message
+                                if (stash.is_questionnaire) {
+                                    await twitter_api.send_dm(twitter_user_id, error_msg, stash.current_questionnaire_options.map((opt) => {
+                                        return { label: opt.display, metadata: JSON.stringify({ question_ref: stash.current_questionnaire_question_ref, index: opt.index, session_id: stash.session_id, is_questionnaire: true }) }
+                                    }))
+                                }
+                                else {
+    
+                                    await twitter_api.send_dm(twitter_user_id, error_msg, stash.current_questionnaire_options)
+                                }
+    
+                                stash.error_msg_count = stash.error_msg_count + 1;
                                 await stasher.save_stash(twitter_user_id, stash);
                             }
-
-                            let error_msg;
-                            if (stash.error_msg_count === 1) {
-                                error_msg = flow.error_msg;
-                            }
-                            else if (stash.error_msg_count === 2) {
-                                error_msg = flow.error_msg_keyboard;
-                            }
-                            else if (stash.error_msg_count === 3) {
-                                error_msg = flow.error_msg_video;
-                            }
-                            else {
-                                error_msg = flow.error_msg_email;
-                                stash.error_msg_count = undefined;
-                            }
-
-                            // Send error message
-                            if (stash.is_questionnaire) {
-                                await twitter_api.send_dm(twitter_user_id, error_msg, stash.current_questionnaire_options.map((opt) => {
-                                    return { label: opt.display, metadata: JSON.stringify({ question_ref: stash.current_questionnaire_question_ref, index: opt.index, session_id: stash.session_id, is_questionnaire: true }) }
-                                }))
-                            }
-                            else {
-
-                                await twitter_api.send_dm(twitter_user_id, error_msg, stash.current_questionnaire_options)
-                            }
-
-                            stash.error_msg_count = stash.error_msg_count + 1;
-                            await stasher.save_stash(twitter_user_id, stash);
                         }
 
                     }
